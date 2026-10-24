@@ -1,151 +1,77 @@
-# Fatimah bint Muhammad: The Quiet Strength of a Queen
+# Sayyidah Fatimah bint Muhammad ﷺ: The True Measure of Honour
 
-*An article based on Omar Suleiman's talk "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" ([watch on YouTube](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
+*Adapted from Omar Suleiman's talk "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" ([watch on YouTube](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
 
 ---
 
-## A Little Girl at the Ka'bah
+## An Incident at the Sacred Precinct of the Ka'bah
 
-In the early days of Islam, the Prophet ﷺ was praying beside the Ka'bah. A group of his fiercest enemies sat nearby, led by Abu Jahl, a man who had already thrown dirt on him and even pressed his foot on his neck while he prayed. That day, they wanted to humiliate him even more.
+It was the early period of the call to Islam. The whole of Makkah's society of ignorance had set itself against the one voice that summoned people to the worship of Allah alone. One day the Prophet, peace and blessings be upon him, was performing prayer in the sacred precinct of the Ka'bah. Close by sat a number of the chiefs of Quraysh, led by Abu Jahl, the same man who had earlier thrown dust upon him and had even dared to place his foot upon his blessed neck while he prayed. On this day they devised yet another means of humiliation. One of these wretched men rose, brought the entrails and filth of a slaughtered camel, and when the Prophet went down into prostration, threw it all upon his blessed back. The weight was such that he could not lift his head, and the chiefs laughed until they fell against one another.
 
-One of them went and brought the guts and filth of a slaughtered camel. When the Prophet ﷺ went down into sujood, he dumped all of it on his back. The weight pinned him to the ground, and the men laughed.
+At that moment a young girl came running. She was his daughter Fatimah, may Allah be pleased with her, who had not yet reached the age of maturity. She paid no regard to the standing of those chiefs, nor to their laughter. With her small hands she removed the filth from her father's back, and then her composure gave way and she wept. The Prophet, peace be upon him, said: "Do not weep, my daughter. Allah will protect your father and grant him victory." He then invoked Allah against those men, and history bears witness that on the field of Badr they were among the first to perish.
 
-Then a small girl, not yet a teenager, came running. It was **Fatimah**, his daughter.
-
-She didn't run away and she didn't freeze. With her own small hands she scraped the filth off her father's back, while grown men mocked, cursed and laughed around her. Then she cried.
-
-Her father turned to her and said, gently:
-
-> *"Don't cry, my daughter. Allah will protect your father. Allah will give your father victory."*
-
-Then he raised his hands and prayed against the men who had done this. Years later, at Badr, they were among the first to fall.
-
-**Pause here and reflect.** A moment like that could have broken a child. It could have made her resent her father's mission and blame his faith for her pain. It did the opposite. Fatimah grew up loving that mission even more. Her hardship didn't make her bitter. It shaped who she became.
+Reflect upon this incident. Ordinary human experience tells us that such a shock plants bitterness in a child's heart against the very cause for which she was made to suffer. She might well have thought: had my father not given this call, this misfortune would never have befallen us. Yet here the matter turned the other way. This trial only deepened Fatimah's love for her father's mission. This is precisely the difference that faith brings about: for the believer, hardship becomes a cause not of complaint, but of steadfastness.
 
 ---
 
 ## Why Fatimah?
 
-The Prophet ﷺ had other daughters, so why does Fatimah stand out as one of the women who *perfected* their faith?
+A question naturally arises here. The Prophet, peace be upon him, had other daughters as well, so why was it Fatimah who received the distinction of being counted among the few women who attained perfection of faith? The scholars have mentioned several reasons, and each of them carries a deep lesson within it.
 
-Scholars mention a few reasons, and each one is a lesson for us.
+The first reason is that she enjoyed, more than any of her siblings, the company of her mother, the Mother of the Believers Khadijah, may Allah be pleased with her. Khadijah was herself among the women whose faith was declared complete. Fatimah absorbed her character and her ways so thoroughly that they became part of her own nature. This makes plain a truth: a person's character is not formed in a vacuum. The surroundings in which one is raised, and the people one observes closely, are reflected in the character one comes to have.
 
-**1. She learned from a great mother.**
-Fatimah spent more time with her mother, **Khadijah**, than any of her siblings did. Khadijah was herself one of the women who perfected their faith, and Fatimah absorbed her character and manners.
+The second reason is that she remained beside her father in the days when no one else did. At the time the revelation began she was about five years old; in other words, she opened her eyes in a household of Islam and grew up in its atmosphere. Then, when Khadijah passed away, only the Prophet, peace be upon him, and this young daughter remained in the house. Imagine those evenings when he would have returned home carrying the weight of a day of hostility and loneliness. It was this daughter who prepared his food, consoled him, and filled her mother's empty place with her service. For this reason people began to call her "Umm Abiha", the mother of her father. Human greatness very often begins with such unnoticed services, which the eye of the world does not see, but which are never hidden from the sight of Allah.
 
-*The company we keep and the women we look up to shape who we become.*
-
-**2. She was there when no one else was.**
-She was about five years old when the revelation began, so she grew up *inside* Islam. When Khadijah passed away, the house was left with only the Prophet ﷺ and young Fatimah.
-
-Think of the evenings he came home grieving and alone. She was the one who cooked for him, comforted him and filled the space her mother had left. People started calling her ***Umm Abiha***, "the mother of her father."
-
-*Real greatness often starts with quiet service at home, the kind no one else sees.*
-
-**3. She resembled her father.**
-She was known as ***Az-Zahra***, "the radiant one," because her face shone, just as her father's face was described as bright like the full moon. Aisha said:
-
-> *"I have never seen anyone in Allah's creation more like the Prophet ﷺ in speech, manner and conversation than Fatimah."*
-
-Whenever she entered a room, the Prophet ﷺ would stand up, greet her, kiss her, take her hand and sit her in his own place. He honored her publicly and openly.
+The third reason is that in character and in appearance she was a reflection of her father. She was given the title "al-Zahra", the radiant one, because her face was bright and luminous, just as the blessed face of the Prophet, peace be upon him, has been likened to the full moon. The Mother of the Believers Aishah, may Allah be pleased with her, testified that she had never seen anyone who resembled the Messenger of Allah more than Fatimah in speech, manner and conduct. Whenever she came to him he would rise, welcome her, kiss her forehead, take her by the hand and seat her in his own place. This was the honour shown to a daughter in a society where burying daughters alive was not considered a matter of shame.
 
 ---
 
-## Royalty, but Not the Kind We Imagine
+## Honour as Ignorance Sees It, and as Islam Sees It
 
-The Prophet ﷺ said that Fatimah is **the leader of the women of Paradise**. She was treated like royalty, but in a way very different from what the world calls royalty.
+The Prophet, peace be upon him, declared Fatimah to be the leader of the women of Paradise. Now consider what the world's ordinary idea of such a princess would be. Surely that her father would marry her to some great man of wealth, keep her in a palace, and lay every comfort at her feet. But see what actually happened. Proposals came from several wealthy and prominent Companions, and he did not accept them. His choice fell upon Ali ibn Abi Talib, may Allah be pleased with him, whom he had taken as his brother after the Hijrah, and who possessed nothing of the wealth of this world.
 
-We might expect a queen's father to marry her to the richest man, give her a palace and shower her with gifts. The Prophet ﷺ turned down proposals from wealthy, respected companions. He chose **Ali ibn Abi Talib**, the man he had taken as his brother after the Hijrah.
+When Ali came to make the proposal, modesty and hesitation kept him from saying a word. The Prophet opened the matter himself: "Perhaps you have come for Fatimah?" He replied: yes. He asked: "What do you have to give as dowry?" Ali had nothing except a coat of armour. He said: "Sell it, and make that her dowry." Thus the leader of the women of Paradise was married for the price of a single coat of armour.
 
-When Ali came to propose, he was too nervous to speak. The Prophet ﷺ smiled and helped him: *"Perhaps you came to ask for Fatimah?"* Ali said yes.
-
-*"What can you give as her mahr?"* Ali owned only one thing of value: his shield. *"Sell it,"* the Prophet ﷺ said, *"and let that be her mahr."*
-
-So the leader of the women of Paradise married on the price of a single shield.
-
-*Her worth wasn't measured by what was spent on her. A marriage's honor comes from the character of the people in it, not the size of the wedding.*
+This was not merely an event; it was the declaration of an entire system of values. Ignorance measures a person's worth by their wealth, their pomp and splendour, and the riches spent upon them. Islam broke that measure, and taught that the honour of a marriage lies in the God-consciousness and character of those who enter it, not in the splendour of the ceremony or the size of the dowry.
 
 ---
 
-## A Father Who Stayed Close
+## Prophetic Guidance in Building a Home
 
-The Prophet ﷺ stayed deeply involved in their home. He would wake them for the night prayer and check on them often. He was so attentive that Fatimah once wondered whether he loved Ali more than her.
+Even after the marriage, the Prophet, peace be upon him, did not neglect this household. He would wake the two of them for the night prayer, ask after their condition and attend to their needs. So great was this attention that on one occasion the thought crossed Fatimah's mind that perhaps Ali was dearer to him than she was. He, who possessed the most exalted character, answered both of them in a single sitting. To Ali he said: "She is more beloved to me than you," and to Fatimah: "And he is dearer to me than you." The hearts of both were set at rest.
 
-With his perfect character, he answered both of them at once. To Ali he said, *"She is more beloved to me than you,"* and to Fatimah, *"and he is dearer to me than you."* Neither left feeling less loved.
-
-Like any couple, they sometimes disagreed. Once Ali left the house upset and went to sleep in the masjid. The Prophet ﷺ went to find him, saw him lying on the dusty floor, and started brushing the dust off him, saying with a smile:
-
-> *"Get up, O Abu Turab — father of dust."*
-
-Ali later said it became his favorite name. A gentle joke calmed the situation and brought them back together.
-
-*A good family doesn't avoid every disagreement. It handles disagreements with gentleness and mercy.*
+That some displeasure should occasionally arise between husband and wife is part of human nature, and this household was no exception. Once, over some matter, Ali left in displeasure and lay down in the mosque. The Prophet, peace be upon him, went looking for him and found him lying on the ground with dust upon his body. He brushed the dust from him, saying as he did so: "Get up, Abu Turab!" (father of dust). Ali used to say that this was the name dearest to him. A gentle jest dispelled the bitterness and joined two hearts again. From this we learn that an Islamic home is not one in which there is never any disagreement, but one in which disagreement is resolved with forbearance and kindness.
 
 ---
 
-## Blistered Hands, a Content Heart
+## Richness of Heart Within Poverty
 
-Remember that this is the queen of the women of Paradise. All they owned to sleep on was a single sheepskin. Fatimah ground grain and carried water until her hands were covered in blisters.
+Now look at the material state of this home. In the house of the leader of the women of Paradise, all there was by way of bedding was the skin of a ram. From grinding at the hand-mill her palms had become blistered, and from carrying water her body bore marks. After one expedition, when some captives were brought in, Ali advised her to ask her father for a servant. The Prophet, peace be upon him, came to their house, sat between the two of them and said: "Shall I not tell you of something better than a servant? When you lie down to sleep, say *SubhanAllah* thirty-three times, *Alhamdulillah* thirty-three times, and *Allahu Akbar* thirty-four times."
 
-After one battle, when captives were brought back, Ali suggested she ask her father for a servant. The Prophet ﷺ came to their home, sat between them on their bed and said:
-
-> *"Shall I tell you something better than a servant? Before you sleep, say* SubhanAllah *33 times,* Alhamdulillah *33 times, and* Allahu Akbar *34 times."*
-
-That was how he provided for the daughter he loved most: he gave her strength for the soul, not comfort for the body.
-
-And Fatimah didn't become resentful. She never thought, *"I'm the Prophet's daughter, so I deserve an easier life."* She had seen how much her father struggled, she struggled alongside him, and she became like him.
-
-*Contentment doesn't come from having more. It comes from a heart that is connected to Allah.*
+This was the provision that the greatest of men gave to his most beloved daughter: not ease for the body, but strength for the soul. And what is remarkable is that no complaint arose in Fatimah's heart. She never thought that, being the Prophet's daughter, comfort and luxury were her right. She had watched her father bear hardships, had shared in those hardships herself, and by walking the same path had taken on his very colour. Contentment is not born of an abundance of possessions. It is born of a heart whose bond with its Lord is firmly established.
 
 ---
 
-## She Smiled at Parting
+## The Hour of Parting
 
-When the Prophet ﷺ was on his deathbed, Fatimah came in, saw him weak and ill, and wept. He called her close and whispered something to her, and she cried even harder. He called her back and whispered again, and this time she laughed.
+When the Prophet, peace be upon him, was in his final illness, Fatimah came to him. Seeing her father in that condition, she began to weep. He called her close and said something in her ear, and her weeping increased. He called her close once more and said something else, and she smiled. Later she explained that the first time he had told her he would not recover from this illness, and the second time he had told her that she would be the first of his family to join him.
 
-Later she explained. The first time, he had told her he wouldn't survive this illness. The second time, he told her:
-
-> *"You will be the first of my family to join me."*
-
-She was told of her own approaching death, and she smiled, because it meant she would be with her father again.
-
-About six months later, as he had said, she became ill. She had in fact been unwell with grief since the day he passed away. She was a young mother with small children and a loving husband, but her heart longed to be with her father in Paradise.
+Consider this: who smiles at hearing news of their own death? Yet for the heart whose true longing is the companionship of Allah and His Messenger, death is not a parting but a message of reunion. And so, about six months after his passing, as he had foretold, she fell ill. In truth, the grief of separation from her father had already worn her down. She was the mother of young children and the companion of a righteous husband, yet her heart was restless to reach her father.
 
 ---
 
-## A Final Request About Modesty
+## Modesty to the Final Breath
 
-Before she died, she called **Asma bint Umays** (the wife of Abu Bakr, may Allah be pleased with them), who would wash her body. Her final request was:
+Before her death she called for Asma bint Umays, may Allah be pleased with her, the wife of Abu Bakr al-Siddiq, may Allah be pleased with him, who was to wash her body. She asked of her that when the time came to wash her and carry her bier, it be done at night, so that people's eyes would not fall upon the shape of her body.
 
-> *"When you wash me and pray over me, do it at night, so no one sees the outline of my body."*
-
-Even in death, her modesty came first. She was the daughter of the most modest of people ﷺ and she carried that modesty to the very end. She was buried at night, as she had asked, and Allah reunited her with her beloved father. She took her place as **the leader of the women of Paradise.**
+Such was the modesty of this woman, the daughter of the most modest of all people, peace be upon him. The modesty she had made her hallmark throughout her life was her concern even at the threshold of death. Accordingly, as she had asked, she was laid to rest at night, and Allah the Exalted united her with her noble father, peace be upon him, where she holds the station of leader of the women of Paradise.
 
 ---
 
-## What True Royalty Means
+## In Summary
 
-Take a moment and ask yourself:
+Now ask yourself for a moment: who was more deserving than Fatimah of a grand wedding, a generous dowry and a life of ease and comfort? Then observe that she received none of these things, and yet her greatness was not diminished by the smallest measure. The reason is that a kingship which may be taken away at any moment is, in reality, no kingship at all. True value belongs to that which endures, and in this sense Fatimah is a queen, the queen of Paradise.
 
-*Who deserved a lavish wedding, a large mahr and a life of comfort more than Fatimah?*
+Many measures of honour and success are placed before the Muslim woman of today: outward glitter, the display of wealth, the attention of people. The life of Sayyidah Fatimah rejects every one of these measures. It teaches that a woman's true worth lies in the courage to stand firm upon the truth, in services that no one sees, in a heart content with little, in holding a home together with gentleness, in a modesty that does not leave her until the final breath, and in the bond that ties the servant to her Lord. Hardship did not harden her heart; rather, it made her a mirror of the character of her father, peace and blessings be upon him.
 
-Yet she had none of these, and she lost nothing by it. **A kingdom that can be taken from you at any moment isn't really a kingdom.** What lasts forever is what truly matters. In that sense Fatimah is a queen, honored in Jannah.
-
----
-
-## For Every Woman Reading This
-
-You don't need a palace to be noble. You don't need an expensive wedding to be honored. Your worth isn't set by the attention you get or the comforts you have.
-
-Fatimah shows us that a woman's real strength is:
-
-- **Courage**, like standing by what is right when others mock it.
-- **Service**, like caring for your family in ways no one notices.
-- **Contentment**, like being at peace with little when your heart is full.
-- **Gentleness**, like keeping a home together through mercy.
-- **Modesty**, like holding your dignity close, even until your last breath.
-- **Connection to Allah**, like finding your strength in His remembrance.
-
-Hardship didn't harden her. It made her more like her father.
-
-May Allah make us among those who follow her example, and grant us her company in the highest gardens of Paradise. *Ameen.*
+May Allah the Exalted grant our sisters and daughters the ability to walk in her footsteps, and bless them with her companionship in Jannat al-Firdaws. Ameen.
