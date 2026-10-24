@@ -1,5 +1,7 @@
 # Sayyidah Fatimah bint Muhammad ﷺ: The True Measure of Honour
 
+![Illustration of the Ka'bah and the valley of Makkah at dusk](images/kaaba-makkah-cover.png)
+
 *Adapted from Omar Suleiman's talk "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" ([watch on YouTube](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
 
 ---

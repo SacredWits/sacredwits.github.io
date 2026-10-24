@@ -1,5 +1,7 @@
 # Sayyida Fatimah bint Muhammad ﷺ: Izzat ka Asal Mayaar
 
+![Shaam ke waqt Kaaba aur Makkah ki waadi ki tasveer](images/kaaba-makkah-cover.png)
+
 *Yeh tahreer Omar Suleiman ke bayaan "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" se maakhooz hai ([YouTube par dekhiye](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
 
 ---

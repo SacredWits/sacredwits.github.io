@@ -1,5 +1,7 @@
 # सय्यिदा फ़ातिमा बिन्त मुहम्मद ﷺ: इज़्ज़त का असल मेयार
 
+![शाम के वक़्त काबा और मक्का की वादी की तस्वीर](images/kaaba-makkah-cover.png)
+
 *यह तहरीर उमर सुलेमान के बयान "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" से माख़ूज़ है ([YouTube पर देखिए](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
 
 ---

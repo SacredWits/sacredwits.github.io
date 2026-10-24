@@ -2,6 +2,8 @@
 
 # سیدہ فاطمہ بنتِ محمد ﷺ: عزت کا اصل معیار
 
+![شام کے وقت کعبہ اور وادیِ مکہ کی تصویر](images/kaaba-makkah-cover.png)
+
 *یہ تحریر عمر سلیمان کے بیان "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" سے ماخوذ ہے ([یوٹیوب پر دیکھیے](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
 
 ---
