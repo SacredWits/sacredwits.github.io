@@ -2,13 +2,13 @@
 
 Islamic content site (lives of the Companions, tafseer, research, Q&A, news) built with [Astro](https://astro.build), in five languages: English (`en`), Arabic (`ar`), Urdu (`ur`), Roman Urdu (`ur-latn`) and Hindi (`hi`).
 
-Live: https://sacredwits.github.io/sacred-data/
+Live: https://sacredwits.github.io/
 
 ## Run locally
 
 ```sh
 npm install
-npm run dev      # http://localhost:4321/sacred-data/
+npm run dev      # http://localhost:4321/
 npm run build    # static site in dist/
 npm run check    # type and content checks
 ```
