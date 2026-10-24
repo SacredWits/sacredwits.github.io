@@ -1,151 +1,77 @@
-# Fatimah bint Muhammad ﷺ: Ek Malika ki Khamosh Taaqat
+# Sayyida Fatimah bint Muhammad ﷺ: Izzat ka Asal Mayaar
 
-*Yeh article Omar Suleiman ke bayaan "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" par based hai ([YouTube par dekhiye](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
+*Yeh tahreer Omar Suleiman ke bayaan "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" se maakhooz hai ([YouTube par dekhiye](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
 
 ---
 
-## Kaaba ke Paas Ek Chhoti Si Bachchi
+## Haram-e-Kaaba ka Ek Waqiya
 
-Islam ke shuruaati dinon ki baat hai. Nabi ﷺ Kaaba ke paas namaz padh rahe the. Paas hi aap ke sabse bade dushman baithe the, aur unka leader Abu Jahl tha. Yeh wohi aadmi tha jo pehle bhi aap par mitti phenk chuka tha, balki namaz ke dauraan aap ki gardan par pair tak rakh chuka tha. Us din woh log aap ko aur bhi zaleel karna chahte the.
+Dawat-e-Islami ka ibtidaai zamana tha. Makkah ki poori jaahili society us ek awaaz ko dabaane par tuli hui thi jo Allah ki bandagi ki taraf bula rahi thi. Ek roz Nabi-e-Kareem sallallahu alaihi wasallam Haram-e-Kaaba mein namaz ada farma rahe the. Qareeb hi Quraish ke chand sardaar baithe the jin ka sarghana Abu Jahl tha, wohi shakhs jo is se pehle aap par khaak phenk chuka tha aur haalat-e-namaz mein aap ki gardan-e-mubarak par paaon rakhne ki jasaarat kar chuka tha. Us din un logon ne tazleel ka ek aur tareeqa socha. Un mein se ek badbakht utha, zabah shuda oont ki ojhri aur ghalaazat utha laaya, aur jab aap sajde mein gaye to yeh sab aap ki pusht-e-mubarak par daal diya. Bojh aisa tha ke aap sar na utha sake, aur woh sardaar hanste hanste ek doosre par gire jaate the.
 
-Unmein se ek aadmi gaya aur zabah kiye hue oont ki aantein aur saari gandagi utha laya. Jaise hi Nabi ﷺ sajde mein gaye, usne woh sab aap ki peeth par daal diya. Bojh itna bhaari tha ki aap sar nahi utha paaye, aur woh log hanste rahe.
+Us waqt ek kamsin bachchi daudti hui aayi. Yeh aap ki sahibzaadi Fatimah radiyallahu anha thin, jin ki umr abhi buloogh ko bhi na pahunchi thi. Unhon ne na un sardaaron ke ro'ab ki parwa ki, na un ke qahqahon ki. Apne nanhe haathon se baap ki pusht se woh ghalaazat hataai, aur phir zabt ka bandhan toot gaya aur ro padin. Nabi sallallahu alaihi wasallam ne farmaya: "Beti, ro nahin. Allah tumhare baap ki hifaazat karega aur use ghalba ata farmayega." Phir aap ne un logon ke haq mein baddua farmaai, aur tareekh gawaah hai ke Badr ke maidaan mein yahi log sab se pehle halaak hone waalon mein the.
 
-Tabhi ek chhoti si bachchi daudti hui aayi, jo abhi teenage mein bhi nahi pahunchi thi. Woh **Fatimah** thin, aap ki beti.
-
-Na woh bhaagin, na darr ke ruk gayin. Apne nanhe haathon se unhone apne Abbu ki peeth se woh gandagi saaf ki, jabki bade bade mard aas paas mazaak udaate, gaaliyan dete aur hanste rahe. Phir woh ro padin.
-
-Abbu ne bade pyaar se unki taraf dekha aur kaha:
-
-> *"Mat ro meri beti. Allah tumhare Abbu ki hifaazat karega. Allah tumhare Abbu ko jeet dega."*
-
-Phir aap ne haath uthaye aur un logon ke khilaaf dua ki. Saalon baad Badr mein yahi log sabse pehle girne waalon mein the.
-
-**Yahan ek pal ruk ke sochiye.** Aisa waqiya kisi bhi bachche ko andar se tod sakta tha. Woh apne Abbu ke mission se nafrat kar sakti thi, apne dard ka blame unke deen par daal sakti thi. Lekin hua bilkul ulta. Fatimah us mission se aur zyada mohabbat karte hue badi huin. Mushkil ne unhe kadwa nahi banaya, balki unhe nikhaar diya.
+Is waqiye par ghaur kijiye. Aam insaani tajurba yeh hai ke aisa sadma ek bachche ke dil mein us maqsad ke khilaaf talkhi bitha deta hai jis ki khaatir use yeh dukh uthaana pada ho. Woh soch sakti thin ke agar mere waalid yeh dawat na dete to hum par yeh museebat na aati. Magar yahan maamla bar-aks hua. Is aazmaaish ne Fatimah ke dil mein apne waalid ke mission ki mohabbat ko aur gehra kar diya. Yahi woh farq hai jo imaan paida karta hai: momin ke liye museebat shikwe ka nahin, istiqaamat ka sabab banti hai.
 
 ---
 
 ## Fatimah hi Kyun?
 
-Nabi ﷺ ki aur betiyan bhi thin, to phir Fatimah hi un auraton mein kyun sabse alag dikhti hain jinhone apna imaan *perfect* kiya?
+Yahan fitri taur par yeh sawaal paida hota hai ke Nabi sallallahu alaihi wasallam ki doosri sahibzaadiyan bhi thin, phir yeh imtiyaaz Fatimah hi ko kyun haasil hua ke woh un chand khawateen mein shumaar huin jinhon ne imaan ka kamaal paaya? Ahl-e-ilm ne is ke chand asbaab bayaan kiye hain, aur un mein se har ek apne andar ek gehra sabaq rakhta hai.
 
-Ulama iske kuch reasons batate hain, aur har ek mein hamare liye ek seekh hai.
+Pehla sabab yeh hai ke unhein apni waalida Umm-ul-Momineen Khadijah radiyallahu anha ki sohbat sab se zyada mayassar aayi. Khadijah khud un khawateen mein se thin jin ke imaan ko kaamil qaraar diya gaya. Fatimah ne un ke akhlaaq aur un ke taur tareeqe is tarah apne andar jazb kiye ke woh un ki seerat ka hissa ban gaye. Is se yeh haqeeqat waazeh hoti hai ke insaan ki seerat khala mein nahin banti; jis maahaul mein woh palta hai aur jin shakhsiyaton ko woh qareeb se dekhta hai, unhi ka aks us ke kirdaar mein utarta hai.
 
-**1. Unhone ek bahut achhi maa se seekha.**
-Fatimah ne apni Ammi **Khadijah** ke saath apne sab bhai behnon se zyada waqt bitaaya. Khadijah khud un auraton mein se thin jinhone imaan perfect kiya, aur Fatimah ne unke akhlaaq aur tameez apna liye.
+Doosra sabab yeh hai ke woh un dinon mein apne waalid ke saath rahin jab koi aur saath na tha. Nuzool-e-wahi ke waqt un ki umr kam-o-besh paanch baras thi, goya unhon ne aankh hi Islam ke gharaane mein kholi aur usi fiza mein parwaan chadhin. Phir jab Khadijah ka inteqaal hua to ghar mein sirf Nabi sallallahu alaihi wasallam aur yeh kamsin beti reh gayin. Zara tasawwur kijiye un shaamon ka jab aap din bhar ki mukhaalifat aur tanhaai ka bojh liye ghar lautte honge. Us waqt yahi beti aap ke liye khaana tayyaar karti, aap ki diljoi karti aur maan ki khaali jagah ko apni khidmat se pur karti thi. Isi bina par log unhein "Umm-e-Abiha" yaani apne baap ki maan kehne lage. Insaani azmat ka aaghaaz aksar unhi gumnaam khidmaat se hota hai jinhein duniya ki aankh nahin dekhti magar Allah ki nigaah se poshida nahin rehtin.
 
-*Hum jinke saath waqt bitaate hain aur jinhe dekh kar seekhte hain, unka rang hum par zaroor chadhta hai.*
-
-**2. Woh tab saath thin jab koi aur nahi tha.**
-Jab wahi aani shuru hui to woh lagbhag paanch saal ki thin, isliye woh Islam ke *andar* hi pali badhin. Khadijah ke inteqaal ke baad ghar mein sirf Nabi ﷺ aur nanhi Fatimah reh gaye.
-
-Un shaamon ko imagine kijiye jab aap dukhi aur akele ghar lautte the. Wohi aap ke liye khana banaatin, aap ko himmat detin aur maa ki khaali jagah bharti thin. Log unhe ***Umm Abiha***, yaani "apne Abbu ki maa", kehne lage.
-
-*Asli badappan aksar ghar ki us chupchaap khidmat se shuru hota hai jo kisi aur ko dikhti bhi nahi.*
-
-**3. Woh bilkul apne Abbu jaisi thin.**
-Unhe ***Az-Zahra***, yaani "chamakte chehre wali", kaha jata tha kyunki unka chehra roshan rehta tha, jaise unke Abbu ka chehra poore chaand jaisa roshan bataya gaya hai. Aisha kehti hain:
-
-> *"Maine Allah ki makhlooq mein baat karne, andaaz aur guftagu mein Nabi ﷺ se Fatimah se zyada milta julta koi nahi dekha."*
-
-Jab bhi woh kamre mein aatin, Nabi ﷺ khade ho jaate, salaam karte, unka maatha choomte, unka haath pakadte aur unhe apni jagah par bitha dete. Aap sabke saamne khul ke unki izzat karte the.
+Teesra sabab yeh hai ke woh seerat-o-soorat mein apne waalid ka aks thin. Un ka laqab "Zahra" isi liye pada ke un ka chehra roshan aur taabaan tha, jis tarah Nabi sallallahu alaihi wasallam ke chehra-e-mubarak ko chaudhvin ke chaand se tashbeeh di gayi hai. Umm-ul-Momineen Aisha radiyallahu anha ki gawaahi hai ke unhon ne guftagu, andaaz aur atwaar mein Rasoolullah sallallahu alaihi wasallam se Fatimah se badh kar mushaabeh kisi ko nahin dekha. Jab woh aap ke paas aatin to aap khade ho jaate, un ka istiqbaal farmaate, un ki peshaani choomte, un ka haath pakad kar apni jagah par bithaate. Yeh us mu'aashre mein ek beti ki takreem thi jahan betiyon ko zinda dafan kar dena baais-e-aar nahin samjha jaata tha.
 
 ---
 
-## Royal Shaan, Lekin Waisi Nahi Jaisi Hum Sochte Hain
+## Izzat ka Jaahili Tasawwur aur Islami Tasawwur
 
-Nabi ﷺ ne farmaya ki Fatimah **Jannat ki auraton ki sardaar** hain. Unke saath ek princess jaisa bartaav hua, lekin us tareeke se bilkul alag jise duniya royalty kehti hai.
+Nabi sallallahu alaihi wasallam ne Fatimah ko Jannat ki auraton ki sardaar qaraar diya. Ab zara sochiye ke duniya ka aam tasawwur aisi shehzaadi ke baare mein kya hota? Yahi ke us ka baap us ki shaadi kisi bade daulatmand se karta, use mahal mein rakhta aur har aasaaish us ke qadmon mein daal deta. Magar yahan dekhiye ke kya hua. Kai maaldaar aur saahib-e-haisiyat sahaba ki taraf se paighaam aaye aur aap ne unhein qubool na farmaya. Aap ka intekhaab Ali bin Abi Talib radiyallahu anhu thehre, jinhein Hijrat ke baad aap ne apna bhai banaya tha aur jin ke paas duniya ke maal mein se kuch na tha.
 
-Hum shayad sochein ki aisi malika ke Abbu uski shaadi sabse ameer aadmi se karenge, use mahal denge aur gifts se laad denge. Nabi ﷺ ne paise waale aur izzatdaar sahaba ke rishte mana kar diye. Aap ne **Ali ibn Abi Talib** ko chuna, jinhe aap ne Hijrat ke baad apna bhai banaya tha.
+Ali jab paighaam le kar haazir hue to haya aur jhijhak ke maare zabaan se kuch na keh sake. Aap ne khud hi baat chhedi: "Shaayad Fatimah ke liye aaye ho?" Arz kiya: ji haan. Poochha: "Mehr mein dene ko kya hai?" Un ke paas ek zirah ke siwa kuch na tha. Farmaya: "Isi ko bech do aur ise mehr bana do." Chunaanche Jannat ki auraton ki sardaar ka nikaah ek zirah ki qeemat par hua.
 
-Jab Ali rishta lekar aaye to itne nervous the ki kuch bol hi nahi paaye. Nabi ﷺ muskuraaye aur unki madad ki: *"Shayad tum Fatimah ke liye aaye ho?"* Ali ne kaha haan.
-
-*"Mehr mein kya de sakte ho?"* Ali ke paas keemti cheez sirf ek thi: unki dhaal. *"Ise bech do,"* Nabi ﷺ ne kaha, *"aur yahi uska mehr hoga."*
-
-Is tarah Jannat ki auraton ki sardaar ki shaadi sirf ek dhaal ki keemat par hui.
-
-*Unki value is se nahi naapi gayi ki un par kitna kharcha hua. Shaadi ki izzat usmein jude logon ke kirdaar se hoti hai, function ki chamak dhamak se nahi.*
+Yeh mehaz ek waqiya nahin balke ek poore nizaam-e-aqdaar ka elaan hai. Jaahiliyat insaan ki qadr us ke maal, us ki shaan-o-shaukat aur us par kharch hone waali daulat se naapti hai. Islam ne yeh paimaana tod diya aur bataaya ke nikaah ki izzat us mein shareek hone waalon ke taqwa aur kirdaar se hai, taqreeb ki raunaq aur mehr ki miqdaar se nahin.
 
 ---
 
-## Ek Abbu Jo Hamesha Paas Rahe
+## Ghar ki Taameer mein Nabawi Rehnumaai
 
-Nabi ﷺ unke ghar se bahut jude hue the. Raat ki namaz ke liye unhe jagaate aur aksar haal chaal poochhte. Aap itna khayal rakhte the ki ek baar Fatimah ko laga ki kahin aap Ali se unse zyada pyaar to nahi karte.
+Nikaah ke baad bhi Nabi sallallahu alaihi wasallam is ghar se ghaafil na hue. Raat ko tahajjud ke liye dono ko jagaate, un ke ahwaal daryaaft farmaate, un ki zarooraton ka khayaal rakhte. Yeh tawajjoh is qadr thi ke ek baar Fatimah ke dil mein yeh khayaal guzra ke shaayad aap ko Ali mujh se zyada azeez hain. Aap ne, jo khulq-e-azeem ke maalik the, dono ko ek hi majlis mein yun jawaab diya ke Ali se farmaya: "Yeh mujhe tum se zyada mehboob hai", aur Fatimah se farmaya: "Aur yeh mere nazdeek tum se zyada azeez hai." Dono ke dil mutma'in ho gaye.
 
-Apne perfect akhlaaq se aap ne dono ko ek saath jawaab diya. Ali se kaha, *"Yeh mujhe tumse zyada pyaari hai,"* aur Fatimah se, *"aur yeh mujhe tumse zyada azeez hai."* Kisi ko bhi kam pyaar mehsoos nahi hua.
-
-Har couple ki tarah unmein bhi kabhi kabhi nok jhonk ho jaati. Ek baar Ali naaraz hokar ghar se nikle aur masjid mein jaakar so gaye. Nabi ﷺ unhe dhoondhne gaye, unhe masjid ke mitti bhare farsh par lete dekha, aur muskuraate hue unke kapdon se mitti jhaadte hue kaha:
-
-> *"Utho, aye Abu Turab, mitti waale."*
-
-Ali baad mein kehte the ki yeh unka sabse favourite naam ban gaya. Ek halke se mazaak ne mahaul thanda kar diya aur dono ko phir se mila diya.
-
-*Achha ghar woh nahi jahan kabhi jhagda na ho. Achha ghar woh hai jahan jhagde ko pyaar aur narmi se sambhaala jaaye.*
+Miyan biwi ke darmiyan kabhi kabhaar ranjish ka paida ho jaana insaani fitrat hai, aur yeh gharaana bhi is se mustasna na tha. Ek baar kisi baat par Ali naaraz ho kar masjid mein ja lete. Nabi sallallahu alaihi wasallam unhein dhoondte hue wahan pahunche, dekha ke zameen par lete hain aur jism par mitti lagi hai. Aap un ke jism se mitti jhaadte jaate aur farmaate jaate: "Utho Abu Turab!" Ali farmaaya karte the ke yeh naam unhein sab se zyada mehboob tha. Ek shafeeq mizaah ne talkhi ko door kar diya aur do dilon ko phir jod diya. Is se maaloom hota hai ke Islami ghar woh nahin jis mein kabhi ikhtilaaf na ho, balke woh hai jis mein ikhtilaaf ko hilm aur shafqat se suljhaaya jaaye.
 
 ---
 
-## Chhaalon Bhare Haath, Sukoon Bhara Dil
+## Faqr mein Ghina
 
-Yaad rakhiye, yeh Jannat ki auraton ki malika hain. Unke paas sone ke liye bas ek bhed ki khaal thi. Fatimah chakki peesti aur paani dhoti rahin, yahan tak ki unke haathon mein chhaale pad gaye.
+Ab is ghar ki maaddi haalat dekhiye. Jannat ki auraton ki sardaar ke ghar mein bichhone ke naam par sirf ek mendhe ki khaal thi. Chakki peeste peeste un ke haathon mein chhaale pad gaye the aur paani dhote dhote jism par nishaan aa gaye the. Ek ghazwe ke baad jab kuch qaidi aaye to Ali ne mashwara diya ke waalid se ek khaadim maang lo. Nabi sallallahu alaihi wasallam un ke ghar tashreef laaye, dono ke darmiyan baith gaye aur farmaya: "Kya main tumhein woh cheez na bataaun jo khaadim se behtar hai? Jab sone lago to taintees baar SubhanAllah, taintees baar Alhamdulillah aur chauntees baar Allahu Akbar keh liya karo."
 
-Ek jung ke baad jab qaidi laaye gaye, to Ali ne suggest kiya ki woh apne Abbu se ek naukar maang lein. Nabi ﷺ unke ghar aaye, dono ke beech bistar par baith gaye aur kaha:
-
-> *"Kya main tumhe naukar se bhi behtar cheez na bataaun? Sone se pehle 33 baar* SubhanAllah, *33 baar* Alhamdulillah *aur 34 baar* Allahu Akbar *padh liya karo."*
-
-Yeh tha woh tareeka jisse aap ne apni sabse pyaari beti ka khayal rakha: jism ko aaraam nahi, rooh ko taaqat di.
-
-Aur Fatimah ke dil mein koi shikayat nahi aayi. Unhone kabhi nahi socha ki *"Main Nabi ki beti hoon, to meri life aasaan honi chahiye."* Unhone dekha tha ki unke Abbu ne kitni takleefein jheli, woh har mushkil mein unke saath rahin, aur bilkul unhi jaisi ban gayin.
-
-*Sukoon zyada cheezon se nahi aata. Woh us dil se aata hai jo Allah se juda ho.*
+Yeh tha woh saamaan jo duniya ke sab se bade insaan ne apni sab se pyaari beti ko diya. Jism ki raahat nahin, rooh ki quwwat. Aur hairat ki baat yeh hai ke Fatimah ke dil mein is par koi shikaayat paida na hui. Unhon ne kabhi yeh na socha ke main Nabi ki beti hoon, is liye aaraam-o-aasaaish mera haq hai. Unhon ne apne waalid ko mashaqqatein jhelte dekha tha, khud un mashaqqaton mein shareek rahi thin, aur usi raaste par chal kar unhi ke rang mein rang gayi thin. Qanaa'at maal ki kasrat se paida nahin hoti, us dil se paida hoti hai jis ka ta'alluq apne Rabb se ustuwaar ho.
 
 ---
 
-## Judaai Par Muskurahat
+## Rukhsat ki Ghadi
 
-Jab Nabi ﷺ aakhri beemari mein the, Fatimah aayin, aap ko kamzor aur beemar dekha aur ro padin. Aap ne unhe paas bulaya aur kaan mein kuch kaha, to woh aur zyada roin. Aap ne phir paas bulaya aur dobaara kuch kaha, is baar woh hans padin.
+Jab Nabi sallallahu alaihi wasallam marz-e-wafaat mein the to Fatimah haazir huin. Waalid ko is haal mein dekh kar rone lagin. Aap ne unhein qareeb bula kar kaan mein kuch farmaya to un ka girya aur badh gaya. Phir dobaara qareeb bula kar kuch farmaya to woh muskura deen. Baad mein unhon ne bataaya ke pehli baar aap ne farmaya tha ke main is beemari se jaanbar na ho sakoonga, aur doosri baar farmaya ke mere ghar waalon mein sab se pehle tum mujh se aa milogi.
 
-Baad mein unhone bataya. Pehli baar aap ne kaha tha ki woh is beemari se theek nahi honge. Doosri baar kaha:
-
-> *"Mere ghar waalon mein sabse pehle tum mujhse aakar milogi."*
-
-Unhe apni maut paas hone ki khabar di gayi, aur woh muskura deen, kyunki iska matlab tha ki woh phir se apne Abbu ke saath hongi.
-
-Lagbhag chhe mahine baad, jaisa aap ne kaha tha, woh beemar pad gayin. Sach to yeh hai ki Abbu ke jaane ke din se hi woh gham se toot chuki thin. Woh ek jawaan maa thin, chhote chhote bachche the aur pyaar karne wala shohar tha, lekin unka dil Jannat mein apne Abbu se milne ke liye bechain tha.
+Ghaur kijiye, apni maut ki khabar sun kar kaun muskuraata hai? Magar jis dil ki asal tamanna Allah aur us ke Rasool ki rifaaqat ho, us ke liye maut judaai nahin, wisaal ka paighaam hoti hai. Chunaanche aap ki wafaat ke taqreeban chhe maah baad, jaisa ke aap ne khabar di thi, woh beemar huin. Haqeeqat yeh hai ke waalid ki judaai ke gham ne unhein pehle hi nidhaal kar rakha tha. Kamsin bachchon ki maan thin, ek nek shohar ki rafeeqa-e-hayaat thin, magar dil apne waalid ke paas pahunchne ko betaab tha.
 
 ---
 
-## Haya ki Aakhri Request
+## Haya Aakhri Saans Tak
 
-Wafaat se pehle unhone **Asma bint Umays** (Abu Bakr ki biwi, Allah dono se raazi ho) ko bulaya, jo unhe ghusl dene waali thin. Unki aakhri request yeh thi:
+Wafaat se pehle unhon ne Asma bint Umais radiyallahu anha ko bulaaya, jo Abu Bakr Siddiq radiyallahu anhu ki ahliya thin aur jinhon ne unhein ghusl dena tha. Un se wasiyat ki ke mujhe ghusl dena aur mera janaaza uthaana ho to raat ke waqt uthaana, taake logon ki nigaah mere jism ki saakht par na pade.
 
-> *"Jab mujhe ghusl do aur janaaza padho, to raat ko karna, taaki koi mere jism ki banawat na dekh sake."*
-
-Maut ke waqt bhi unke liye haya sabse pehle thi. Woh sabse zyada haya waale insaan ﷺ ki beti thin aur yeh haya aakhri saans tak unke saath rahi. Unki khwahish ke mutaabiq unhe raat ko dafnaaya gaya, aur Allah ne unhe unke pyaare Abbu se mila diya. Unhone **Jannat ki auraton ki sardaar** ka maqaam paaya.
+Yeh thi us khatoon ki haya jo sab se badh kar baahaya insaan sallallahu alaihi wasallam ki beti thin. Zindagi bhar jis haya ko unhon ne apna shiaar banaaye rakha, maut ki dehleez par bhi usi ki fikr thi. Chunaanche un ki wasiyat ke mutaabiq unhein raat ke waqt supurd-e-khaak kiya gaya, aur Allah Ta'ala ne unhein un ke waalid-e-giraami sallallahu alaihi wasallam se mila diya, jahan woh Jannat ki auraton ki sardaar ke mansab par faaiz hain.
 
 ---
 
-## Asli Royalty Kya Hai
+## Haasil-e-Kalaam
 
-Zara khud se poochhiye:
+Ab ek lamhe ke liye yeh sawaal apne aap se kijiye ke shaandaar shaadi, bhaari mehr aur aish-o-aaraam ki zindagi ka Fatimah se badh kar kaun haqdaar tha? Aur phir dekhiye ke in mein se koi cheez unhein na mili, aur is ke baawajood un ki azmat mein zarra baraabar kami na aayi. Is ki wajah yeh hai ke jo baadshaahi kisi bhi lamhe chhin jaaye, woh dar-haqeeqat baadshaahi hai hi nahin. Asal qadr us cheez ki hai jo baaqi rehne waali hai, aur isi maani mein Fatimah malika hain, Jannat ki malika.
 
-*Shaandaar shaadi, bada mehr aur aaraam ki zindagi ki Fatimah se zyada haqdaar kaun thi?*
+Aaj ki Musalmaan aurat ke saamne izzat aur kaamyaabi ke bahut se paimaane rakhe jaate hain: zaahiri chamak damak, daulat ki numaaish, logon ki tawajjoh. Sayyida Fatimah ki zindagi in sab paimaanon ko radd karti hai. Woh bataati hai ke aurat ka asal jauhar haq par dat jaane ki himmat mein hai, un khidmaat mein hai jo koi nahin dekhta, thode par raazi rehne waale dil mein hai, ghar ko narmi se jode rakhne mein hai, us haya mein hai jo aakhri saans tak saath na chhode, aur us ta'alluq mein hai jo bande ko us ke Rabb se jodta hai. Mushkilaat ne unhein sakht dil nahin banaaya, balke apne waalid sallallahu alaihi wasallam ki seerat ka aaina bana diya.
 
-Phir bhi unke paas inmein se kuch nahi tha, aur unka kuch bhi nuksaan nahi hua. **Jo raaj kabhi bhi chheena ja sake, woh asli raaj nahi.** Jo hamesha rahe, wohi asal mein matter karta hai. Is hisaab se Fatimah sach mein malika hain, Jannat mein izzat waali.
-
----
-
-## Har Us Aurat ke Liye Jo Yeh Padh Rahi Hai
-
-Izzatdaar banne ke liye mahal ki zaroorat nahi. Izzat paane ke liye mehngi shaadi ki zaroorat nahi. Aapki value is se tay nahi hoti ki aapko kitni attention milti hai ya aapke paas kitni suvidhaayein hain.
-
-Fatimah hamein dikhaati hain ki ek aurat ki asli taaqat yeh hai:
-
-- **Himmat**, jaise sach ke saath khade rehna jab log mazaak udaayein.
-- **Khidmat**, jaise apni family ka un tareekon se khayal rakhna jo kisi ko dikhte bhi nahi.
-- **Santosh aur sabr**, jaise thode mein sukoon paana jab dil bhara ho.
-- **Narmi**, jaise pyaar se ghar ko jod ke rakhna.
-- **Haya**, jaise apni izzat ko aakhri saans tak sambhaal ke rakhna.
-- **Allah se rishta**, jaise uske zikr mein apni taaqat dhoondhna.
-
-Mushkilon ne unhe sakht nahi banaya. Unhe apne Abbu jaisa bana diya.
-
-Allah hamein un logon mein shaamil kare jo unke naqsh-e-qadam par chalein, aur Jannat ke sabse oonche baaghon mein unka saath naseeb kare. *Aameen.*
+Allah Ta'ala hamari behnon aur betiyon ko un ke naqsh-e-qadam par chalne ki taufeeq de aur Jannat-ul-Firdaus mein un ki rifaaqat naseeb farmaaye. Aameen.
