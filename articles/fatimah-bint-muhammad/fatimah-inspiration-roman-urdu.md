@@ -33,7 +33,7 @@ Ulama iske kuch reasons batate hain, aur har ek mein hamare liye ek seekh hai.
 **1. Unhone ek bahut achhi maa se seekha.**
 Fatimah ne apni Ammi **Khadijah** ke saath apne sab bhai behnon se zyada waqt bitaaya. Khadijah khud un auraton mein se thin jinhone imaan perfect kiya, aur Fatimah ne unke akhlaaq aur tameez apna liye.
 
-*Hum jin logon ke saath rehte hain aur jin auraton ko apna role model banate hain, wohi hamein banaate hain.*
+*Hum jinke saath waqt bitaate hain aur jinhe dekh kar seekhte hain, unka rang hum par zaroor chadhta hai.*
 
 **2. Woh tab saath thin jab koi aur nahi tha.**
 Jab wahi aani shuru hui to woh lagbhag paanch saal ki thin, isliye woh Islam ke *andar* hi pali badhin. Khadijah ke inteqaal ke baad ghar mein sirf Nabi ﷺ aur nanhi Fatimah reh gaye.
