@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { formats } from '../../../../config/taxonomy';
+import { locales, type Locale } from '../../../../i18n/locales';
+import { t } from '../../../../i18n/ui';
+import { getSeries, getSeriesParts, postUrl, type Series } from '../../../../lib/content';
+import { seriesIndexUrl, seriesUrl } from '../../../../lib/urls';
+
+export async function getStaticPaths() {
+  const all = await getSeries();
+  return locales.flatMap((lang) =>
+    all.filter((s) => s.data.title[lang]).map((series) => ({ params: { lang, series: series.id }, props: { lang, series } })),
+  );
+}
+const { lang, series } = Astro.props as { lang: Locale; series: Series };
+const parts = await getSeriesParts(lang, series.id);
+const title = series.data.title[lang]!;
+const alternates = Object.fromEntries(locales.filter((l) => series.data.title[l]).map((l) => [l, seriesUrl(l, series.id)]));
+---
+
+<BaseLayout lang={lang} title={title} description={series.data.description[lang]} alternates={alternates}>
+  <div class="container">
+    <header class="page-head">
+      <p><a href={seriesIndexUrl(lang)}>{formats.series[lang]}</a></p>
+      <h1>{title}</h1>
+      <p>{series.data.description[lang]}</p>
+    </header>
+    {
+      parts.length ? (
+        <ol class="parts">
+          {parts.map((p) => (
+            <li>
+              <a href={postUrl(p)}>{p.data.title}</a>
+              <p class="muted">{p.data.description}</p>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <p class="empty">{t(lang, 'comingSoon')}</p>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .parts { max-width: var(--prose); padding-inline-start: 1.4em; margin-block: 24px 48px; font-family: var(--font-body); }
+  .parts li { margin-bottom: 18px; }
+  .parts a { font-size: 1.2rem; }
+  .parts p { margin: 4px 0 0; }
+</style>

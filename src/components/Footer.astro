@@ -1,0 +1,29 @@
+---
+import { sections, formats } from '../config/taxonomy';
+import type { Locale } from '../i18n/locales';
+import { t } from '../i18n/ui';
+import { sectionUrl, articlesUrl, seriesIndexUrl } from '../lib/urls';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="name">{t(lang, 'siteName')}</p>
+    <p class="muted">{t(lang, 'tagline')}</p>
+    <ul>
+      {sections.map((s) => <li><a href={sectionUrl(lang, s.slug)}>{s.label[lang]}</a></li>)}
+      <li><a href={articlesUrl(lang)}>{formats.articles[lang]}</a></li>
+      <li><a href={seriesIndexUrl(lang)}>{formats.series[lang]}</a></li>
+    </ul>
+    <p class="muted small">© {new Date().getFullYear()} Sacred Wits</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer { border-top: 1px solid var(--border); padding-block: 32px; margin-top: 48px; background: var(--surface); }
+  .name { font-weight: 700; margin: 0; }
+  ul { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; padding: 0; margin: 16px 0; }
+  .small { font-size: 0.85rem; }
+</style>

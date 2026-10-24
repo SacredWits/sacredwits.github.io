@@ -1,0 +1,118 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import type { Post } from '../lib/content';
+import { getTranslations, getSeriesParts, postUrl } from '../lib/content';
+import { getSection, getCategory, formats } from '../config/taxonomy';
+import { localeMeta, locales } from '../i18n/locales';
+import { t } from '../i18n/ui';
+import { sectionUrl, categoryUrl, articlesUrl, seriesIndexUrl, seriesUrl } from '../lib/urls';
+
+interface Props { post: Post; seriesTitle?: string }
+const { post, seriesTitle } = Astro.props;
+const { data, lang } = post;
+const { Content } = await render(post);
+const section = getSection(data.section)!;
+const category = getCategory(data.section, data.category);
+const translations = await getTranslations(post.slug);
+const parts = data.format === 'series' && data.series ? await getSeriesParts(lang, data.series) : [];
+const idx = parts.findIndex((p) => p.slug === post.slug);
+const prev = idx > 0 ? parts[idx - 1] : undefined;
+const next = idx >= 0 ? parts[idx + 1] : undefined;
+const dateFmt = new Intl.DateTimeFormat(localeMeta[lang].htmlLang, { dateStyle: 'long' });
+---
+
+<article class="post">
+  <header class="container head">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      {
+        data.format === 'series' && data.series ? (
+          <>
+            <a href={seriesIndexUrl(lang)}>{formats.series[lang]}</a>
+            <span>›</span>
+            <a href={seriesUrl(lang, data.series)}>{seriesTitle ?? data.series}</a>
+          </>
+        ) : (
+          <>
+            <a href={articlesUrl(lang)}>{formats.articles[lang]}</a>
+            <span>›</span>
+            <a href={sectionUrl(lang, section.slug)}>{section.label[lang]}</a>
+            {category && (
+              <>
+                <span>›</span>
+                <a href={categoryUrl(lang, section.slug, category.slug)}>{category.label[lang]}</a>
+              </>
+            )}
+          </>
+        )
+      }
+    </nav>
+    <p class="meta">
+      {
+        data.format === 'series' ? (
+          <span class="badge series">{t(lang, 'partOf', { n: data.part ?? '' })} {seriesTitle ?? data.series}</span>
+        ) : (
+          <span class="badge">{t(lang, 'standalone')}</span>
+        )
+      }
+      <time datetime={data.date.toISOString()} class="muted">{dateFmt.format(data.date)}</time>
+    </p>
+    <h1>{data.title}</h1>
+    <p class="lede">{data.description}</p>
+  </header>
+
+  {
+    data.cover && (
+      <figure class="cover container">
+        <Image src={data.cover} alt={data.coverAlt ?? ''} width={1280} quality={80} loading="eager" />
+      </figure>
+    )
+  }
+
+  <div class="container">
+    {
+      data.source && (
+        <p class="source muted">
+          {t(lang, 'basedOn')}:{' '}
+          {data.source.url ? <a href={data.source.url} rel="noopener" target="_blank">{data.source.title}</a> : data.source.title} — {data.source.author}
+        </p>
+      )
+    }
+    <div class="prose">
+      <Content />
+    </div>
+
+    {
+      parts.length > 0 && (
+        <nav class="pager">
+          {prev ? <a href={postUrl(prev)}>← {t(lang, 'previous')}: {prev.data.title}</a> : <span />}
+          {next && <a href={postUrl(next)}>{t(lang, 'next')}: {next.data.title} →</a>}
+        </nav>
+      )
+    }
+
+    <aside class="langs">
+      <span class="muted">{t(lang, 'readIn')}:</span>
+      {
+        locales
+          .filter((l) => l !== lang && translations[l])
+          .map((l) => (
+            <a href={translations[l]} lang={localeMeta[l].htmlLang} hreflang={localeMeta[l].htmlLang}>{localeMeta[l].name}</a>
+          ))
+      }
+    </aside>
+  </div>
+</article>
+
+<style>
+  .head { max-width: calc(var(--prose) + 32px); padding-block: 32px 16px; }
+  .crumbs { display: flex; flex-wrap: wrap; gap: 6px; font-size: 0.9rem; color: var(--muted); }
+  .meta { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0 8px; font-size: 0.9rem; }
+  h1 { font-family: var(--font-body); font-size: clamp(1.8rem, 4.5vw, 2.7rem); line-height: 1.45; margin: 0 0 12px; }
+  .lede { font-family: var(--font-body); font-size: 1.15rem; color: var(--muted); margin: 0; line-height: var(--leading); }
+  .cover { margin-block: 8px 24px; }
+  .cover :global(img) { width: 100%; border-radius: var(--radius); }
+  .source { max-width: var(--prose); margin: 0 auto 28px; font-size: 0.95rem; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+  .pager { max-width: var(--prose); margin: 40px auto 0; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .langs { max-width: var(--prose); margin: 40px auto 0; padding-top: 20px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+</style>

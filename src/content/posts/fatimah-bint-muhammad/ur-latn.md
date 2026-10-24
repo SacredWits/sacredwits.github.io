@@ -1,9 +1,17 @@
-# Sayyida Fatimah bint Muhammad ﷺ: Izzat ka Asal Mayaar
-
-![Shaam ke waqt Kaaba aur Makkah ki waadi ki tasveer](images/kaaba-makkah-cover.png)
-
-*Yeh tahreer Omar Suleiman ke bayaan "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" se maakhooz hai ([YouTube par dekhiye](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
-
+---
+title: "Sayyida Fatimah bint Muhammad ﷺ: Izzat ka Asal Mayaar"
+description: "Nabi ﷺ ki beti aur Jannat ki auraton ki sardaar, jinhon ne himmat, khidmat, sabr aur haya se izzat ka asal mayaar qaayam kiya."
+date: 2026-10-24
+section: seerah
+category: women-of-islam
+format: standalone
+cover: ../../../assets/covers/kaaba-makkah-cover.png
+coverAlt: "Shaam ke waqt Kaaba aur Makkah ki waadi ki tasveer"
+source:
+  author: Omar Suleiman
+  title: "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise"
+  url: https://www.youtube.com/watch?v=oXi0xqfiBfk
+tags: [fatimah, ahl-al-bayt, modesty, women]
 ---
 
 ## Haram-e-Kaaba ka Ek Waqiya
@@ -74,6 +82,6 @@ Yeh thi us khatoon ki haya jo sab se badh kar baahaya insaan sallallahu alaihi w
 
 Ab ek lamhe ke liye yeh sawaal apne aap se kijiye ke shaandaar shaadi, bhaari mehr aur aish-o-aaraam ki zindagi ka Fatimah se badh kar kaun haqdaar tha? Aur phir dekhiye ke in mein se koi cheez unhein na mili, aur is ke baawajood un ki azmat mein zarra baraabar kami na aayi. Is ki wajah yeh hai ke jo baadshaahi kisi bhi lamhe chhin jaaye, woh dar-haqeeqat baadshaahi hai hi nahin. Asal qadr us cheez ki hai jo baaqi rehne waali hai, aur isi maani mein Fatimah malika hain, Jannat ki malika.
 
-Aaj ki Musalmaan aurat ke saamne izzat aur kaamyaabi ke bahut se paimaane rakhe jaate hain: zaahiri chamak damak, daulat ki numaaish, logon ki tawajjoh. Sayyida Fatimah ki zindagi in sab paimaanon ko radd karti hai. Woh bataati hai ke aurat ka asal khoobi haq par dat jaane ki himmat mein hai, un khidmaat mein hai jo koi nahin dekhta, thode par raazi rehne waale dil mein hai, ghar ko narmi se jode rakhne mein hai, us haya mein hai jo aakhri saans tak saath na chhode, aur us ta'alluq mein hai jo bande ko us ke Rabb se jodta hai. Mushkilaat ne unhein sakht dil nahin banaaya, balke apne waalid sallallahu alaihi wasallam ki seerat ka aaina bana diya.
+Aaj ki Musalmaan aurat ke saamne izzat aur kaamyaabi ke bahut se paimaane rakhe jaate hain: zaahiri chamak damak, daulat ki numaaish, logon ki tawajjoh. Sayyida Fatimah ki zindagi in sab paimaanon ko radd karti hai. Woh bataati hai ke aurat ki asal khoobi haq par dat jaane ki himmat mein hai, un khidmaat mein hai jo koi nahin dekhta, thode par raazi rehne waale dil mein hai, ghar ko narmi se jode rakhne mein hai, us haya mein hai jo aakhri saans tak saath na chhode, aur us ta'alluq mein hai jo bande ko us ke Rabb se jodta hai. Mushkilaat ne unhein sakht dil nahin banaaya, balke apne waalid sallallahu alaihi wasallam ki seerat ka aaina bana diya.
 
 Allah Ta'ala hamari behnon aur betiyon ko un ke naqsh-e-qadam par chalne ki taufeeq de aur Jannat-ul-Firdaus mein un ka saath naseeb farmaaye. Aameen.

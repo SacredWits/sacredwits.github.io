@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { defaultLocale } from '../i18n/locales';
+import { t } from '../i18n/ui';
+import { homeUrl } from '../lib/urls';
+const lang = defaultLocale;
+---
+
+<BaseLayout lang={lang} title={t(lang, 'notFound')}>
+  <div class="container page-head">
+    <h1>{t(lang, 'notFound')}</h1>
+    <p><a href={homeUrl(lang)}>{t(lang, 'home')}</a></p>
+  </div>
+</BaseLayout>

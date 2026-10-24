@@ -1,0 +1,51 @@
+---
+import { locales, localeMeta, type Locale } from '../i18n/locales';
+import { t } from '../i18n/ui';
+import { switchLangPath } from '../lib/urls';
+
+interface Props {
+  lang: Locale;
+  /** When given (e.g. on a post), only these languages exist for the page. */
+  alternates?: Partial<Record<Locale, string>>;
+}
+const { lang, alternates } = Astro.props;
+const path = Astro.url.pathname;
+const target = (l: Locale) => (alternates ? alternates[l] : switchLangPath(path, l));
+---
+
+<details class="lang">
+  <summary aria-label={t(lang, 'language')}>🌐 {localeMeta[lang].name}</summary>
+  <ul>
+    {
+      locales.map((l) => {
+        const href = target(l);
+        return (
+          <li lang={localeMeta[l].htmlLang} dir={localeMeta[l].dir}>
+            {href ? (
+              <a href={href} hreflang={localeMeta[l].htmlLang} aria-current={l === lang ? 'true' : undefined}>
+                {localeMeta[l].name}
+              </a>
+            ) : (
+              <span class="na" title={t(lang, 'notTranslated')}>{localeMeta[l].name}</span>
+            )}
+          </li>
+        );
+      })
+    }
+  </ul>
+</details>
+
+<style>
+  .lang { position: relative; }
+  summary { list-style: none; cursor: pointer; padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px; font-size: 0.9rem; white-space: nowrap; }
+  summary::-webkit-details-marker { display: none; }
+  ul { position: absolute; inset-inline-end: 0; top: calc(100% + 6px); list-style: none; margin: 0; padding: 6px; min-width: 160px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); z-index: 30; }
+  a, .na { display: block; padding: 8px 12px; border-radius: 8px; color: var(--text); }
+  a:hover, a[aria-current] { background: var(--accent-soft); text-decoration: none; }
+  a[aria-current] { font-weight: 600; }
+  .na { color: var(--muted); opacity: 0.6; cursor: not-allowed; }
+  :global(:lang(ar)) li, :global(:lang(ur)) li { font-family: inherit; }
+  @media (max-width: 1000px) {
+    ul { position: static; box-shadow: none; margin-top: 6px; }
+  }
+</style>

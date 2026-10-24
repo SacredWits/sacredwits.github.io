@@ -1,9 +1,17 @@
-# Sayyidah Fatimah bint Muhammad ﷺ: The True Measure of Honour
-
-![Illustration of the Ka'bah and the valley of Makkah at dusk](images/kaaba-makkah-cover.png)
-
-*Adapted from Omar Suleiman's talk "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise" ([watch on YouTube](https://www.youtube.com/watch?v=oXi0xqfiBfk))*
-
+---
+title: "Sayyidah Fatimah bint Muhammad ﷺ: The True Measure of Honour"
+description: "How the daughter of the Prophet ﷺ, leader of the women of Paradise, redefined honour through courage, service, contentment and modesty."
+date: 2026-10-24
+section: seerah
+category: women-of-islam
+format: standalone
+cover: ../../../assets/covers/kaaba-makkah-cover.png
+coverAlt: "Illustration of the Ka'bah and the valley of Makkah at dusk"
+source:
+  author: Omar Suleiman
+  title: "Role Model for Modesty: Fatima bint Muhammad – Women of Paradise"
+  url: https://www.youtube.com/watch?v=oXi0xqfiBfk
+tags: [fatimah, ahl-al-bayt, modesty, women]
 ---
 
 ## An Incident at the Sacred Precinct of the Ka'bah

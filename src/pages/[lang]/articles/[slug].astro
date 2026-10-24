@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostView from '../../../components/PostView.astro';
+import { getAllPosts, getTranslations, type Post } from '../../../lib/content';
+
+export async function getStaticPaths() {
+  const posts = (await getAllPosts()).filter((p) => p.data.format === 'standalone');
+  return Promise.all(
+    posts.map(async (post) => ({
+      params: { lang: post.lang, slug: post.slug },
+      props: { post, alternates: await getTranslations(post.slug) },
+    })),
+  );
+}
+const { post, alternates } = Astro.props as { post: Post; alternates: Awaited<ReturnType<typeof getTranslations>> };
+---
+
+<BaseLayout lang={post.lang} title={post.data.title} description={post.data.description} image={post.data.cover?.src} alternates={alternates}>
+  <PostView post={post} />
+</BaseLayout>
