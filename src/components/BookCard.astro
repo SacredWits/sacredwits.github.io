@@ -1,0 +1,45 @@
+---
+import type { Book } from '../lib/content';
+import type { Locale } from '../i18n/locales';
+import { t } from '../i18n/ui';
+import { bookUrl } from '../lib/urls';
+
+interface Props { book: Book; lang: Locale }
+const { book, lang } = Astro.props;
+const { data } = book;
+const href = bookUrl(lang, book.id);
+---
+
+<article class="card">
+  <a href={href} class="spine" tabindex="-1" aria-hidden="true">
+    <span class="title" lang={lang === 'ur-latn' ? 'ur' : undefined}>{data.title[lang === 'ur-latn' ? 'ur' : lang]}</span>
+    <span class="author">{data.author[lang]}</span>
+  </a>
+  <div class="body">
+    <p class="meta">
+      <span class="badge book">{t(lang, 'book')}</span>
+      <span class="muted">{t(lang, 'chapters', { n: data.chapters.length })}</span>
+    </p>
+    <h3><a href={href}>{data.title[lang]}</a></h3>
+    <p class="muted by">{t(lang, 'by')} {data.author[lang]}</p>
+    <p class="muted desc">{data.description[lang]}</p>
+  </div>
+</article>
+
+<style>
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+  .spine {
+    aspect-ratio: 16 / 9; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; padding: 16px;
+    background: radial-gradient(circle at 50% 40%, #1e5c50, #0d3a32); color: #f3e6c8; border-bottom: 4px solid var(--gold);
+  }
+  .spine:hover { text-decoration: none; }
+  .title { font-size: 1.9rem; font-family: var(--font-body); line-height: 1.6; }
+  .title:lang(ur) { font-family: 'Noto Nastaliq Urdu', serif; }
+  .author { font-size: 0.9rem; opacity: 0.85; }
+  .body { padding: 16px 18px 20px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 8px; font-size: 0.85rem; }
+  h3 { margin: 0 0 4px; font-family: var(--font-body); font-size: 1.2rem; line-height: 1.5; }
+  h3 a { color: var(--text); }
+  .by { margin: 0 0 8px; font-size: 0.9rem; }
+  .desc { margin: 0; font-size: 0.95rem; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+</style>

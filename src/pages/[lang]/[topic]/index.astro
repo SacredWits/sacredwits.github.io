@@ -1,0 +1,12 @@
+---
+import TopicPage from '../../../components/TopicPage.astro';
+import { topics, type Topic } from '../../../config/taxonomy';
+import { locales, type Locale } from '../../../i18n/locales';
+
+export function getStaticPaths() {
+  return locales.flatMap((lang) => topics.map((topic) => ({ params: { lang, topic: topic.slug }, props: { lang, topic } })));
+}
+const { lang, topic } = Astro.props as { lang: Locale; topic: Topic };
+---
+
+<TopicPage lang={lang} topic={topic} />

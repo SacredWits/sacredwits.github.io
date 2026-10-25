@@ -9,11 +9,11 @@ export function url(path: string): string {
 }
 
 export const homeUrl = (lang: Locale) => url(`/${lang}/`);
-export const sectionUrl = (lang: Locale, section: string) => url(`/${lang}/${section}/`);
-export const categoryUrl = (lang: Locale, section: string, category: string) => url(`/${lang}/${section}/${category}/`);
-export const articlesUrl = (lang: Locale) => url(`/${lang}/articles/`);
-export const seriesIndexUrl = (lang: Locale) => url(`/${lang}/series/`);
-export const seriesUrl = (lang: Locale, series: string) => url(`/${lang}/series/${series}/`);
+export const topicUrl = (lang: Locale, topic: string) => url(`/${lang}/${topic}/`);
+export const categoryUrl = (lang: Locale, topic: string, category: string) => url(`/${lang}/${topic}/${category}/`);
+export const booksUrl = (lang: Locale) => url(`/${lang}/books/`);
+export const bookUrl = (lang: Locale, book: string) => url(`/${lang}/books/${book}/`);
+export const chapterUrl = (lang: Locale, book: string, chapterSlug: string) => url(`/${lang}/books/${book}/${chapterSlug}/`);
 
 /** Same page in another language: swap the first path segment. */
 export function switchLangPath(pathname: string, to: Locale): string {

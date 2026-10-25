@@ -2,9 +2,8 @@
 title: "सय्यिदा फ़ातिमा बिन्त मुहम्मद ﷺ: इज़्ज़त का असल मेयार"
 description: "नबी ﷺ की बेटी और जन्नत की औरतों की सरदार, जिन्होंने हिम्मत, ख़िदमत, सब्र और हया से इज़्ज़त का असल मेयार क़ायम किया।"
 date: 2026-10-24
-section: seerah
+topic: seerah
 category: women-of-islam
-format: standalone
 cover: ../../../assets/covers/kaaba-makkah-cover.png
 coverAlt: "शाम के वक़्त काबा और मक्का की वादी की तस्वीर"
 source:

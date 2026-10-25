@@ -13,80 +13,74 @@ npm run build    # static site in dist/
 npm run check    # type and content checks
 ```
 
-## Menu structure
+## How the site is organised
 
-| Menu item | What it lists |
-|---|---|
-| Seerah & Lives ▾ (Prophets, Companions, Women of Islam) | Standalone pieces and series in that section/category |
-| Quran & Tafseer ▾ (Tafseer, Quranic Reflections) | Same |
-| **Articles** | Every **standalone** piece, from all sections |
-| **Series** | Every multi-part **series** |
-| Research · Q&A · News & Updates | Pieces in that section |
+```
+Home
+├─ Seerah & Lives ▾      Prophets · Companions · Women of Islam
+├─ Quran ▾               Tafseer · Reflections
+├─ Beliefs & Practice ▾  Beliefs (Aqeedah) · Worship · Shariah & Rights
+├─ Books ▾               All books · Deeniyat · …
+├─ Research
+├─ Q&A
+└─ News & Updates
+```
 
-Sections and categories live in `src/config/taxonomy.ts`, with labels in all five languages. A category added there appears in the menu automatically.
+There are two kinds of content:
+
+| Kind | What it is | URL |
+|---|---|---|
+| **Article** | A single, complete piece that belongs to one topic (and one category if the topic has them) | `/<lang>/<topic>/<category>/<slug>/` |
+| **Book** | A book studied chapter by chapter: a book page with the full contents, and one page per chapter | `/<lang>/books/<book>/` and `/<lang>/books/<book>/<chapter>/` |
+
+Every card is labelled **Article** or **Book**, and every page has a breadcrumb (e.g. *Home › Books › Deeniyat › Chapter 3*). Books are also listed on their topic page (Deeniyat appears under *Beliefs & Practice › Beliefs*).
+
+Topics and categories are defined in `src/config/taxonomy.ts` with labels in all five languages; a category added there appears in the menu automatically.
 
 ## Adding content
 
-### A standalone article
+### An article
 
-One folder per article, one file per language:
+One folder per article, one file per language (a missing language is simply not listed in that language):
 
 ```
-src/content/posts/<slug>/en.md
-src/content/posts/<slug>/ar.md
-src/content/posts/<slug>/ur.md
-src/content/posts/<slug>/ur-latn.md
-src/content/posts/<slug>/hi.md
+src/content/posts/<slug>/en.md   ar.md   ur.md   ur-latn.md   hi.md
 ```
-
-A missing language is simply not listed in that language.
 
 ```yaml
 ---
 title: "..."
 description: "One or two sentences for cards and search engines."
 date: 2026-10-24
-section: seerah            # seerah | quran | research | qna | news
-category: women-of-islam   # optional, must exist in taxonomy.ts for that section
-format: standalone
+topic: seerah              # seerah | quran | beliefs | research | qna | news
+category: women-of-islam   # required when the topic has categories
 cover: ../../../assets/covers/my-cover.png   # optional, 1280x720
 coverAlt: "..."
-source:                    # optional attribution
-  author: "..."
-  title: "..."
-  url: https://...
+source: { author: "...", title: "...", url: https://... }   # optional
 tags: [..]
-draft: false
 ---
 ```
 
-URL: `/<lang>/articles/<slug>/`
+### A book
 
-### A series
+1. Describe the book and its full contents once in `src/content/books/<book>.yaml` (see `deeniyat.yaml`): title, author and description in all five languages, topic/category, editions, preface, and chapters with their sections and page numbers.
+2. Add notes for a chapter as a post with `book` and `chapter` (use `0` for the preface):
 
-1. Describe the series once in `src/content/series/<series-slug>.yaml`:
-
-   ```yaml
-   title:
-     en: Life of Abu Bakr
-     ur: سیرتِ ابو بکر صدیقؓ
-   description:
-     en: The first Caliph, from Makkah to Madinah.
-     ur: ...
-   section: seerah
-   category: companions
-   order: 1
+   ```
+   src/content/posts/deeniyat-03-prophethood/en.md
    ```
 
-2. Add each part as a post with `format: series`, the `series` slug and its `part` number:
-
    ```yaml
-   format: series
-   series: life-of-abu-bakr
-   part: 1
+   ---
+   title: "Prophethood"
+   description: "..."
+   date: 2026-10-25
+   book: deeniyat
+   chapter: 3
+   ---
    ```
 
-URLs: `/<lang>/series/<series-slug>/` and `/<lang>/series/<series-slug>/<part-slug>/`
+   Chapters without notes still have a page showing their sections, marked "Notes for this chapter are being prepared".
 
 ## Deploying
 

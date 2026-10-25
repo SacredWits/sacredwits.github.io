@@ -2,9 +2,8 @@
 title: "سیدہ فاطمہ بنتِ محمد ﷺ: عزت کا اصل معیار"
 description: "نبی ﷺ کی بیٹی اور جنت کی عورتوں کی سردار، جنہوں نے ہمت، خدمت، قناعت اور حیا سے عزت کا اصل معیار قائم کیا۔"
 date: 2026-10-24
-section: seerah
+topic: seerah
 category: women-of-islam
-format: standalone
 cover: ../../../assets/covers/kaaba-makkah-cover.png
 coverAlt: "شام کے وقت کعبہ اور وادیِ مکہ کی تصویر"
 source:

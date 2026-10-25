@@ -1,0 +1,41 @@
+---
+// /<lang>/<topic>/<x>/ is either a category page (topics with categories)
+// or an article (topics without categories, e.g. Q&A).
+import TopicPage from '../../../../components/TopicPage.astro';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PostView from '../../../../components/PostView.astro';
+import { topics, getTopic, type Topic, type Category } from '../../../../config/taxonomy';
+import { locales, type Locale } from '../../../../i18n/locales';
+import { getAllPosts, getTranslations, type Post } from '../../../../lib/content';
+
+export async function getStaticPaths() {
+  const categoryPages = locales.flatMap((lang) =>
+    topics.flatMap((topic) =>
+      topic.categories.map((category) => ({ params: { lang, topic: topic.slug, second: category.slug }, props: { lang, topic, category } })),
+    ),
+  );
+  const flatArticles = (await getAllPosts()).filter((p) => !p.data.book && !getTopic(p.data.topic)?.categories.length);
+  const articlePages = await Promise.all(
+    flatArticles.map(async (post) => ({
+      params: { lang: post.lang, topic: post.data.topic!, second: post.slug },
+      props: { lang: post.lang, post, alternates: await getTranslations(post.slug) },
+    })),
+  );
+  return [...categoryPages, ...articlePages];
+}
+
+type Props =
+  | { lang: Locale; topic: Topic; category: Category; post?: undefined }
+  | { lang: Locale; post: Post; alternates: Partial<Record<Locale, string>> };
+const props = Astro.props as Props;
+---
+
+{
+  props.post ? (
+    <BaseLayout lang={props.lang} title={props.post.data.title} description={props.post.data.description} image={props.post.data.cover?.src} alternates={props.alternates}>
+      <PostView post={props.post} />
+    </BaseLayout>
+  ) : (
+    <TopicPage lang={props.lang} topic={props.topic} category={props.category} />
+  )
+}

@@ -2,9 +2,8 @@
 title: "Sayyidah Fatimah bint Muhammad ﷺ: The True Measure of Honour"
 description: "How the daughter of the Prophet ﷺ, leader of the women of Paradise, redefined honour through courage, service, contentment and modesty."
 date: 2026-10-24
-section: seerah
+topic: seerah
 category: women-of-islam
-format: standalone
 cover: ../../../assets/covers/kaaba-makkah-cover.png
 coverAlt: "Illustration of the Ka'bah and the valley of Makkah at dusk"
 source:

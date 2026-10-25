@@ -2,9 +2,8 @@
 title: "Sayyida Fatimah bint Muhammad ﷺ: Izzat ka Asal Mayaar"
 description: "Nabi ﷺ ki beti aur Jannat ki auraton ki sardaar, jinhon ne himmat, khidmat, sabr aur haya se izzat ka asal mayaar qaayam kiya."
 date: 2026-10-24
-section: seerah
+topic: seerah
 category: women-of-islam
-format: standalone
 cover: ../../../assets/covers/kaaba-makkah-cover.png
 coverAlt: "Shaam ke waqt Kaaba aur Makkah ki waadi ki tasveer"
 source:

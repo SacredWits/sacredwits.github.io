@@ -1,16 +1,18 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostGrid from '../../components/PostGrid.astro';
-import { sections, formats } from '../../config/taxonomy';
+import BookCard from '../../components/BookCard.astro';
+import { topics, booksLabel } from '../../config/taxonomy';
 import { t } from '../../i18n/ui';
-import { getPosts } from '../../lib/content';
+import { getArticles, getBooks } from '../../lib/content';
 import { langPaths } from '../../lib/paths';
-import { sectionUrl, categoryUrl, articlesUrl, seriesIndexUrl } from '../../lib/urls';
+import { topicUrl, categoryUrl, booksUrl } from '../../lib/urls';
 import type { Locale } from '../../i18n/locales';
 
 export const getStaticPaths = langPaths;
 const { lang } = Astro.props as { lang: Locale };
-const latest = (await getPosts(lang)).slice(0, 6);
+const latest = (await getArticles(lang)).slice(0, 6);
+const books = await getBooks();
 ---
 
 <BaseLayout lang={lang}>
@@ -25,12 +27,15 @@ const latest = (await getPosts(lang)).slice(0, 6);
     <h2 class="section-title">{t(lang, 'latest')}</h2>
     <PostGrid posts={latest} lang={lang} />
 
+    <h2 class="section-title"><a href={booksUrl(lang)}>{booksLabel[lang]}</a></h2>
+    <div class="grid">{books.map((b) => <BookCard book={b} lang={lang} />)}</div>
+
     <h2 class="section-title">{t(lang, 'browse')}</h2>
     <div class="grid tiles">
       {
-        sections.map((s) => (
+        topics.map((s) => (
           <div class="tile">
-            <h3><a href={sectionUrl(lang, s.slug)}>{s.label[lang]}</a></h3>
+            <h3><a href={topicUrl(lang, s.slug)}>{s.label[lang]}</a></h3>
             <p class="muted">{s.description[lang]}</p>
             {s.categories.length > 0 && (
               <ul class="chips">
@@ -40,14 +45,6 @@ const latest = (await getPosts(lang)).slice(0, 6);
           </div>
         ))
       }
-      <div class="tile">
-        <h3><a href={articlesUrl(lang)}>{formats.articles[lang]}</a></h3>
-        <p class="muted">{t(lang, 'articlesIntro')}</p>
-      </div>
-      <div class="tile">
-        <h3><a href={seriesIndexUrl(lang)}>{formats.series[lang]}</a></h3>
-        <p class="muted">{t(lang, 'seriesIntro')}</p>
-      </div>
     </div>
   </div>
 </BaseLayout>
@@ -56,6 +53,7 @@ const latest = (await getPosts(lang)).slice(0, 6);
   .hero { padding-block: 56px 40px; background: linear-gradient(180deg, var(--accent-soft), transparent); border-bottom: 1px solid var(--border); }
   .hero h1 { margin: 0; font-family: var(--font-body); font-size: clamp(2rem, 5vw, 3rem); }
   .hero p { margin: 8px 0 0; color: var(--muted); font-size: 1.15rem; }
+  .section-title a { color: var(--text); }
   .tile { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
   .tile h3 { margin: 0 0 6px; font-family: var(--font-body); }
   .tile p { margin: 0; }

@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { booksLabel, getTopic, getCategory } from '../../../../config/taxonomy';
+import { locales, localeMeta, type Locale } from '../../../../i18n/locales';
+import { t } from '../../../../i18n/ui';
+import { getBooks, getChapterNotes, type Book } from '../../../../lib/content';
+import { readingOrder } from '../../../../lib/book';
+import { homeUrl, booksUrl, bookUrl, chapterUrl, topicUrl, categoryUrl } from '../../../../lib/urls';
+
+export async function getStaticPaths() {
+  const books = await getBooks();
+  return locales.flatMap((lang) => books.map((book) => ({ params: { lang, book: book.id }, props: { lang, book } })));
+}
+const { lang, book } = Astro.props as { lang: Locale; book: Book };
+const { data } = book;
+const notes = await getChapterNotes(lang, book.id);
+const items = readingOrder(book);
+const topic = getTopic(data.topic)!;
+const category = getCategory(data.topic, data.category);
+const alternates = Object.fromEntries(locales.map((l) => [l, bookUrl(l, book.id)]));
+const num = new Intl.NumberFormat(localeMeta[lang].htmlLang);
+const monthFmt = new Intl.DateTimeFormat(localeMeta[lang].htmlLang, { year: 'numeric', month: 'long' });
+const fmtMonth = (ym: string) => monthFmt.format(new Date(`${ym}-01T00:00:00Z`));
+---
+
+<BaseLayout lang={lang} title={data.title[lang]} description={data.description[lang]} alternates={alternates}>
+  <div class="container">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href={homeUrl(lang)}>{t(lang, 'home')}</a><span>›</span><a href={booksUrl(lang)}>{booksLabel[lang]}</a>
+      </nav>
+      <p class="meta">
+        <span class="badge book">{t(lang, 'book')}</span>
+        <a href={topicUrl(lang, topic.slug)}>{topic.label[lang]}</a>
+        {category && (<><span class="muted">›</span><a href={categoryUrl(lang, topic.slug, category.slug)}>{category.label[lang]}</a></>)}
+      </p>
+      <h1>{data.title[lang]}</h1>
+      <p class="author">{t(lang, 'by')} {data.author[lang]}</p>
+    </header>
+
+    <div class="layout">
+      <section class="toc" aria-labelledby="toc-h">
+        <h2 id="toc-h">{t(lang, 'contents')}</h2>
+        <ol class="chapters">
+          {
+            items.map((ch) => {
+              const ready = notes.has(ch.number);
+              return (
+                <li class="chapter">
+                  <a class="row" href={chapterUrl(lang, book.id, ch.slug)}>
+                    <span class="label">{ch.number ? t(lang, 'chapter', { n: num.format(ch.number) }) : ''}</span>
+                    <span class="name">{ch.title[lang]}</span>
+                    <span class="page muted">{t(lang, 'page', { n: num.format(ch.page) })}</span>
+                  </a>
+                  {ready && <span class="badge ready">{t(lang, 'notesReady')}</span>}
+                  {ch.sections.length > 0 && (
+                    <ol class="sections">
+                      {ch.sections.map((s) => (
+                        <li>
+                          <span>{s.title[lang]}</span>
+                          <span class="page muted">{num.format(s.page)}</span>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                </li>
+              );
+            })
+          }
+        </ol>
+      </section>
+
+      <aside class="about">
+        <h2>{t(lang, 'aboutBook')}</h2>
+        <p>{data.description[lang]}</p>
+        {data.publisher && (<p class="muted small"><strong>{t(lang, 'publisher')}:</strong> {data.publisher}</p>)}
+        {
+          data.editions.length > 0 && (
+            <>
+              <h3>{t(lang, 'editions')}</h3>
+              <table>
+                <thead><tr><th>{t(lang, 'edition')}</th><th>{t(lang, 'date')}</th><th>{t(lang, 'copies')}</th></tr></thead>
+                <tbody>
+                  {data.editions.map((e) => (
+                    <tr class:list={{ used: e.number === data.editionUsed }}>
+                      <td>{num.format(e.number)}</td><td>{fmtMonth(e.date)}</td><td>{e.copies ? num.format(e.copies) : '—'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              {data.editionUsed && <p class="muted small">{t(lang, 'editionUsed', { n: num.format(data.editionUsed) })}</p>}
+            </>
+          )
+        }
+      </aside>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .crumbs { display: flex; gap: 6px; font-size: 0.9rem; color: var(--muted); margin-bottom: 6px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 8px 0; font-size: 0.9rem; }
+  .author { font-size: 1.1rem; }
+  .layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 32px; padding-bottom: 48px; }
+  @media (max-width: 860px) { .layout { grid-template-columns: 1fr; } .about { order: -1; } }
+  h2 { font-family: var(--font-body); font-size: 1.4rem; margin: 8px 0 16px; }
+  .chapters, .sections { list-style: none; margin: 0; padding: 0; }
+  .chapter { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 12px; }
+  .row { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: baseline; color: var(--text); }
+  .row:hover { text-decoration: none; }
+  .row:hover .name { color: var(--accent); }
+  .label { color: var(--gold); font-weight: 600; font-size: 0.9rem; white-space: nowrap; }
+  .name { font-family: var(--font-body); font-size: 1.2rem; font-weight: 600; }
+  .ready { margin-top: 6px; }
+  .sections { margin-top: 10px; padding-inline-start: 12px; border-inline-start: 2px solid var(--border); }
+  .sections li { display: flex; justify-content: space-between; gap: 12px; padding: 3px 0 3px 10px; padding-inline: 10px 0; font-family: var(--font-body); }
+  .page { font-size: 0.85rem; white-space: nowrap; }
+  .about { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; align-self: start; }
+  .about p { font-family: var(--font-body); line-height: var(--leading); }
+  .about h3 { font-size: 1rem; margin: 18px 0 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  th, td { border-bottom: 1px solid var(--border); padding: 6px 4px; text-align: start; }
+  tr.used td { color: var(--accent); font-weight: 600; }
+  .small { font-size: 0.85rem; }
+</style>

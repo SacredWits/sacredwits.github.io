@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import { render } from 'astro:content';
+import { booksLabel } from '../../../../../config/taxonomy';
+import { locales, localeMeta, type Locale } from '../../../../../i18n/locales';
+import { t } from '../../../../../i18n/ui';
+import { getBooks, getChapterNotes, type Book } from '../../../../../lib/content';
+import { readingOrder, type ReadingItem } from '../../../../../lib/book';
+import { homeUrl, booksUrl, bookUrl, chapterUrl } from '../../../../../lib/urls';
+
+export async function getStaticPaths() {
+  const books = await getBooks();
+  return locales.flatMap((lang) =>
+    books.flatMap((book) => {
+      const items = readingOrder(book);
+      return items.map((chapter, i) => ({
+        params: { lang, book: book.id, chapter: chapter.slug },
+        props: { lang, book, chapter, prev: items[i - 1], next: items[i + 1] },
+      }));
+    }),
+  );
+}
+const { lang, book, chapter, prev, next } = Astro.props as { lang: Locale; book: Book; chapter: ReadingItem; prev?: ReadingItem; next?: ReadingItem };
+const notes = (await getChapterNotes(lang, book.id)).get(chapter.number);
+const Content = notes ? (await render(notes)).Content : undefined;
+const num = new Intl.NumberFormat(localeMeta[lang].htmlLang);
+const label = (c: ReadingItem) => (c.number ? `${t(lang, 'chapter', { n: num.format(c.number) })}: ${c.title[lang]}` : c.title[lang]);
+const alternates = Object.fromEntries(locales.map((l) => [l, chapterUrl(l, book.id, chapter.slug)]));
+---
+
+<BaseLayout lang={lang} title={`${label(chapter)} · ${book.data.title[lang]}`} description={notes?.data.description ?? book.data.description[lang]} alternates={alternates}>
+  <article class="container">
+    <header class="head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href={homeUrl(lang)}>{t(lang, 'home')}</a><span>›</span>
+        <a href={booksUrl(lang)}>{booksLabel[lang]}</a><span>›</span>
+        <a href={bookUrl(lang, book.id)}>{book.data.title[lang]}</a>
+      </nav>
+      {chapter.number > 0 && <p class="label">{t(lang, 'chapter', { n: num.format(chapter.number) })}</p>}
+      <h1>{chapter.title[lang]}</h1>
+      <p class="muted">{book.data.title[lang]} — {book.data.author[lang]} · {t(lang, 'page', { n: num.format(chapter.page) })}</p>
+    </header>
+
+    {
+      chapter.sections.length > 0 && (
+        <section class="outline">
+          <h2>{t(lang, 'inThisChapter')}</h2>
+          <ol>
+            {chapter.sections.map((s) => (
+              <li><span>{s.title[lang]}</span><span class="muted">{t(lang, 'page', { n: num.format(s.page) })}</span></li>
+            ))}
+          </ol>
+        </section>
+      )
+    }
+
+    {Content ? <div class="prose"><Content /></div> : <p class="empty">{t(lang, 'notesComing')}</p>}
+
+    <nav class="pager">
+      {prev ? <a href={chapterUrl(lang, book.id, prev.slug)}>← {label(prev)}</a> : <span />}
+      {next && <a href={chapterUrl(lang, book.id, next.slug)}>{label(next)} →</a>}
+    </nav>
+  </article>
+</BaseLayout>
+
+<style>
+  .head, .outline, .pager, .empty { max-width: var(--prose); margin-inline: auto; }
+  .head { padding-block: 32px 8px; }
+  .crumbs { display: flex; flex-wrap: wrap; gap: 6px; font-size: 0.9rem; color: var(--muted); }
+  .label { color: var(--gold); font-weight: 600; margin: 16px 0 0; }
+  h1 { font-family: var(--font-body); font-size: clamp(1.8rem, 4.5vw, 2.6rem); line-height: 1.45; margin: 4px 0 8px; }
+  .outline { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; margin-block: 16px 32px; }
+  .outline h2 { font-size: 1.05rem; margin: 0 0 8px; }
+  .outline ol { margin: 0; padding-inline-start: 1.4em; font-family: var(--font-body); }
+  .outline li { padding: 3px 0; }
+  .outline li span:last-child { font-size: 0.85rem; margin-inline-start: 10px; }
+  .pager { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-block: 40px 16px; padding-top: 20px; border-top: 1px solid var(--border); }
+</style>

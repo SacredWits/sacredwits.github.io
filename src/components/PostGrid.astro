@@ -1,21 +1,16 @@
 ---
 import PostCard from './PostCard.astro';
 import type { Post } from '../lib/content';
-import { getSeries } from '../lib/content';
 import type { Locale } from '../i18n/locales';
 import { t } from '../i18n/ui';
 
 interface Props { posts: Post[]; lang: Locale }
 const { posts, lang } = Astro.props;
-const series = await getSeries();
-const seriesTitle = (id?: string) => series.find((s) => s.id === id)?.data.title[lang];
 ---
 
 {
   posts.length ? (
-    <div class="grid">
-      {posts.map((p) => <PostCard post={p} seriesTitle={seriesTitle(p.data.series)} />)}
-    </div>
+    <div class="grid">{posts.map((p) => <PostCard post={p} />)}</div>
   ) : (
     <p class="empty">{t(lang, 'comingSoon')}</p>
   )

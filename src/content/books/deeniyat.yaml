@@ -1,0 +1,173 @@
+# Risala-e-Deeniyat — table of contents (headings and page numbers only),
+# taken from the 4th edition (April 1943). Chapter notes live in
+# src/content/posts/deeniyat-<nn>-<slug>/<lang>.md with `book: deeniyat`.
+
+title:
+  en: Deeniyat
+  ar: الدينيات
+  ur: رسالۂ دینیات
+  ur-latn: Risala-e-Deeniyat
+  hi: रिसाला-ए-दीनियात
+author:
+  en: Syed Abul A'la Maududi
+  ar: السيد أبو الأعلى المودودي
+  ur: سید ابو الاعلیٰ مودودی
+  ur-latn: Syed Abul Aala Maududi
+  hi: सय्यद अबुल आला मौदूदी
+description:
+  en: A short, systematic introduction to Islam written as a textbook for the senior classes of Islamic schools. It moves step by step from what Islam is, to faith, prophethood and the articles of belief, then to worship, and finally to the Shariah and the rights it sets out. It is widely known in English as "Towards Understanding Islam".
+  ar: مدخل موجز ومنظّم إلى الإسلام، كُتب منهجًا دراسيًا للصفوف العليا في المدارس الإسلامية. يتدرّج من بيان حقيقة الإسلام، إلى الإيمان والنبوة وأركان الاعتقاد، ثم العبادات، وأخيرًا الشريعة وما تقرّره من حقوق.
+  ur: اسلام کا ایک مختصر اور مرتب تعارف، جو اسلامی اسکولوں کی اونچی جماعتوں کے نصاب کے طور پر لکھا گیا۔ یہ قدم بہ قدم اسلام کی حقیقت سے ایمان، نبوت اور عقائد تک، پھر عبادات تک، اور آخر میں شریعت اور اس کے مقرر کردہ حقوق تک لے جاتا ہے۔
+  ur-latn: Islam ka ek mukhtasar aur murattab ta'aruf, jo Islami schoolon ki oonchi jamaaton ke nisaab ke taur par likha gaya. Yeh qadam ba qadam Islam ki haqeeqat se imaan, nubuwwat aur aqaaid tak, phir ibaadaat tak, aur aakhir mein shariat aur us ke muqarrar karda huqooq tak le jaata hai.
+  hi: इस्लाम का एक मुख़्तसर और मुरत्तब तआरुफ़, जो इस्लामी स्कूलों की ऊँची जमातों के निसाब के तौर पर लिखा गया। यह क़दम ब क़दम इस्लाम की हक़ीक़त से ईमान, नुबुव्वत और अक़ाइद तक, फिर इबादात तक, और आख़िर में शरीअत और उसके मुक़र्रर करदा हुक़ूक़ तक ले जाता है।
+topic: beliefs
+category: aqeedah
+order: 1
+publisher: Daftar Risala Tarjuman al-Quran, Idara Dar-ul-Islam, Pathankot
+editionUsed: 4
+editions:
+  - { number: 1, date: 1939-03, copies: 2000 }
+  - { number: 2, date: 1940-10, copies: 2000 }
+  - { number: 3, date: 1942-03, copies: 2000 }
+  - { number: 4, date: 1943-04, copies: 2000 }
+
+preface:
+  page: 6
+  title: { en: Preface, ar: المقدمة, ur: دیباچہ, ur-latn: Deebaacha, hi: दीबाचा }
+
+chapters:
+  - number: 1
+    slug: islam
+    page: 9
+    title: { en: Islam, ar: الإسلام, ur: اسلام, ur-latn: Islam, hi: इस्लाम }
+    sections:
+      - page: 9
+        title: { en: Why it is so named, ar: سبب التسمية, ur: وجہ تسمیہ, ur-latn: Wajh-e-Tasmiya, hi: वजह-ए-तस्मिया }
+      - page: 10
+        title: { en: Meaning of the word "Islam", ar: معنى كلمة الإسلام, ur: لفظ اسلام کے معنی, ur-latn: Lafz Islam ke Maani, hi: लफ़्ज़ इस्लाम के मानी }
+      - page: 10
+        title: { en: The reality of Islam, ar: حقيقة الإسلام, ur: اسلام کی حقیقت, ur-latn: Islam ki Haqeeqat, hi: इस्लाम की हक़ीक़त }
+      - page: 13
+        title: { en: The reality of kufr (disbelief), ar: حقيقة الكفر, ur: کفر کی حقیقت, ur-latn: Kufr ki Haqeeqat, hi: कुफ़्र की हक़ीक़त }
+      - page: 13
+        title: { en: The harms of kufr, ar: أضرار الكفر, ur: کفر کے نقصانات, ur-latn: Kufr ke Nuqsaanaat, hi: कुफ़्र के नुक़सानात }
+      - page: 17
+        title: { en: The benefits of Islam, ar: فوائد الإسلام, ur: اسلام کے فائدے, ur-latn: Islam ke Faayde, hi: इस्लाम के फ़ायदे }
+
+  - number: 2
+    slug: faith-and-obedience
+    page: 25
+    title: { en: Faith and Obedience, ar: الإيمان والطاعة, ur: ایمان اور اطاعت, ur-latn: Imaan aur Ita'at, hi: ईमान और इताअत }
+    sections:
+      - page: 25
+        title: { en: Why obedience needs knowledge and certainty, ar: حاجة الطاعة إلى العلم واليقين, ur: اطاعت کے لیے علم اور یقین کی ضرورت, ur-latn: Ita'at ke liye Ilm aur Yaqeen ki Zaroorat, hi: इताअत के लिए इल्म और यक़ीन की ज़रूरत }
+      - page: 27
+        title: { en: Definition of iman (faith), ar: تعريف الإيمان, ur: ایمان کی تعریف, ur-latn: Imaan ki Ta'reef, hi: ईमान की तारीफ़ }
+      - page: 29
+        title: { en: The means of gaining knowledge, ar: وسيلة تحصيل العلم, ur: علم حاصل ہونے کا ذریعہ, ur-latn: Ilm Haasil Hone ka Zariya, hi: इल्म हासिल होने का ज़रिया }
+      - page: 31
+        title: { en: Faith in the unseen, ar: الإيمان بالغيب, ur: ایمان بالغیب, ur-latn: Imaan bil-Ghaib, hi: ईमान बिल-ग़ैब }
+
+  - number: 3
+    slug: prophethood
+    page: 33
+    title: { en: Prophethood, ar: النبوة, ur: نبوت, ur-latn: Nubuwwat, hi: नुबुव्वत }
+    sections:
+      - page: 34
+        title: { en: The reality of prophethood, ar: حقيقة النبوة, ur: پیغمبری کی حقیقت, ur-latn: Paighambari ki Haqeeqat, hi: पैग़म्बरी की हक़ीक़त }
+      - page: 37
+        title: { en: How a prophet is recognised, ar: معرفة النبي, ur: پیغمبر کی پہچان, ur-latn: Paighambar ki Pehchaan, hi: पैग़म्बर की पहचान }
+      - page: 38
+        title: { en: Obedience to the prophet, ar: طاعة النبي, ur: پیغمبر کی اطاعت, ur-latn: Paighambar ki Ita'at, hi: पैग़म्बर की इताअत }
+      - page: 40
+        title: { en: Why belief in the prophet is necessary, ar: ضرورة الإيمان بالنبي, ur: پیغمبر پر ایمان لانے کی ضرورت, ur-latn: Paighambar par Imaan Laane ki Zaroorat, hi: पैग़म्बर पर ईमान लाने की ज़रूरत }
+      - page: 43
+        title: { en: A short history of prophethood, ar: تاريخ موجز للنبوة, ur: پیغمبری کی مختصر تاریخ, ur-latn: Paighambari ki Mukhtasar Tareekh, hi: पैग़म्बरी की मुख़्तसर तारीख़ }
+      - page: 48
+        title: { en: The prophethood of Muhammad ﷺ, ar: نبوة محمد ﷺ, ur: حضرت محمد ﷺ کی نبوت, ur-latn: Hazrat Muhammad ﷺ ki Nubuwwat, hi: हज़रत मुहम्मद ﷺ की नुबुव्वत }
+      - page: 50
+        title: { en: Proof of Muhammad's prophethood, ar: إثبات النبوة المحمدية, ur: نبوتِ محمدی کا ثبوت, ur-latn: Nubuwwat-e-Muhammadi ka Suboot, hi: नुबुव्वत-ए-मुहम्मदी का सुबूत }
+      - page: 60
+        title: { en: Finality of prophethood, ar: ختم النبوة, ur: ختمِ نبوت, ur-latn: Khatm-e-Nubuwwat, hi: ख़त्म-ए-नुबुव्वत }
+      - page: 61
+        title: { en: Arguments for the finality of prophethood, ar: أدلة ختم النبوة, ur: ختمِ نبوت کے دلائل, ur-latn: Khatm-e-Nubuwwat ke Dalaail, hi: ख़त्म-ए-नुबुव्वत के दलाइल }
+
+  - number: 4
+    slug: articles-of-faith
+    page: 64
+    title: { en: Faith in Detail, ar: الإيمان المفصّل, ur: ایمانِ مفصل, ur-latn: Imaan-e-Mufassal, hi: ईमान-ए-मुफ़स्सल }
+    sections:
+      - page: 65
+        title: { en: Belief in God, ar: الإيمان بالله, ur: خدا پر ایمان, ur-latn: Khuda par Imaan, hi: ख़ुदा पर ईमान }
+      - page: 67
+        title: { en: Meaning of La ilaha illallah, ar: معنى لا إله إلا الله, ur: لا الٰہ الا اللہ کے معنی, ur-latn: La ilaha illallah ke Maani, hi: ला इलाहा इल्लल्लाह के मानी }
+      - page: 68
+        title: { en: The reality of La ilaha illallah, ar: حقيقة لا إله إلا الله, ur: لا الٰہ الا اللہ کی حقیقت, ur-latn: La ilaha illallah ki Haqeeqat, hi: ला इलाहा इल्लल्लाह की हक़ीक़त }
+      - page: 78
+        title: { en: Effect of belief in tawheed on human life, ar: أثر عقيدة التوحيد في حياة الإنسان, ur: انسانی زندگی پر عقیدۂ توحید کا اثر, ur-latn: Insaani Zindagi par Aqeeda-e-Tauheed ka Asar, hi: इंसानी ज़िंदगी पर अक़ीदा-ए-तौहीद का असर }
+      - page: 81
+        title: { en: Belief in God's angels, ar: الإيمان بملائكة الله, ur: خدا کے فرشتوں پر ایمان, ur-latn: Khuda ke Farishton par Imaan, hi: ख़ुदा के फ़रिश्तों पर ईमान }
+      - page: 84
+        title: { en: Belief in God's books, ar: الإيمان بكتب الله, ur: خدا کی کتابوں پر ایمان, ur-latn: Khuda ki Kitaabon par Imaan, hi: ख़ुदा की किताबों पर ईमान }
+      - page: 89
+        title: { en: Belief in God's messengers, ar: الإيمان برسل الله, ur: خدا کے رسولوں پر ایمان, ur-latn: Khuda ke Rasoolon par Imaan, hi: ख़ुदा के रसूलों पर ईमान }
+      - page: 92
+        title: { en: Belief in the Hereafter, ar: الإيمان بالآخرة, ur: آخرت پر ایمان, ur-latn: Aakhirat par Imaan, hi: आख़िरत पर ईमान }
+      - page: 93
+        title: { en: Why belief in the Hereafter is needed, ar: ضرورة عقيدة الآخرة, ur: عقیدۂ آخرت کی ضرورت, ur-latn: Aqeeda-e-Aakhirat ki Zaroorat, hi: अक़ीदा-ए-आख़िरत की ज़रूरत }
+      - page: 97
+        title: { en: The truth of belief in the Hereafter, ar: صدق عقيدة الآخرة, ur: عقیدۂ آخرت کی صداقت, ur-latn: Aqeeda-e-Aakhirat ki Sadaaqat, hi: अक़ीदा-ए-आख़िरत की सदाक़त }
+      - page: 102
+        title: { en: The Kalima Tayyiba, ar: الكلمة الطيبة, ur: کلمۂ طیبہ, ur-latn: Kalima-e-Tayyiba, hi: कलिमा-ए-तय्यिबा }
+
+  - number: 5
+    slug: worship
+    page: 103
+    title: { en: Acts of Worship, ar: العبادات, ur: عبادات, ur-latn: Ibaadaat, hi: इबादात }
+    sections:
+      - page: 104
+        title: { en: The concept of ibadah (worship), ar: مفهوم العبادة, ur: عبادت کا مفہوم, ur-latn: Ibaadat ka Mafhoom, hi: इबादत का मफ़हूम }
+      - page: 106
+        title: { en: Salah (prayer), ar: الصلاة, ur: نماز, ur-latn: Namaaz, hi: नमाज़ }
+      - page: 110
+        title: { en: Fasting, ar: الصوم, ur: روزہ, ur-latn: Roza, hi: रोज़ा }
+      - page: 112
+        title: { en: Zakah, ar: الزكاة, ur: زکوٰۃ, ur-latn: Zakaat, hi: ज़कात }
+      - page: 115
+        title: { en: Hajj, ar: الحج, ur: حج, ur-latn: Hajj, hi: हज }
+      - page: 117
+        title: { en: Defending and supporting Islam, ar: نصرة الإسلام, ur: حمایتِ اسلام, ur-latn: Himaayat-e-Islam, hi: हिमायत-ए-इस्लाम }
+
+  - number: 6
+    slug: deen-and-shariah
+    page: 121
+    title: { en: Deen and Shariah, ar: الدين والشريعة, ur: دین اور شریعت, ur-latn: Deen aur Shariat, hi: दीन और शरीअत }
+    sections:
+      - page: 121
+        title: { en: The difference between deen and shariah, ar: الفرق بين الدين والشريعة, ur: دین اور شریعت کا فرق, ur-latn: Deen aur Shariat ka Farq, hi: दीन और शरीअत का फ़र्क़ }
+      - page: 122
+        title: { en: Sources for knowing the rulings of shariah, ar: مصادر معرفة أحكام الشريعة, ur: احکامِ شریعت معلوم کرنے کے ذرائع, ur-latn: Ahkaam-e-Shariat Maaloom Karne ke Zaraae, hi: अहकाम-ए-शरीअत मालूम करने के ज़राए }
+      - page: 124
+        title: { en: Fiqh (jurisprudence), ar: الفقه, ur: فقہ, ur-latn: Fiqh, hi: फ़िक़्ह }
+      - page: 125
+        title: { en: Tasawwuf (Sufism), ar: التصوف, ur: تصوف, ur-latn: Tasawwuf, hi: तसव्वुफ़ }
+
+  - number: 7
+    slug: rulings-of-shariah
+    page: 129
+    title: { en: Rulings of the Shariah, ar: أحكام الشريعة, ur: شریعت کے احکام, ur-latn: Shariat ke Ahkaam, hi: शरीअत के अहकाम }
+    sections:
+      - page: 129
+        title: { en: Principles of the shariah, ar: أصول الشريعة, ur: شریعت کے اصول, ur-latn: Shariat ke Usool, hi: शरीअत के उसूल }
+      - page: 133
+        title: { en: The four kinds of rights, ar: أنواع الحقوق الأربعة, ur: حقوق کی چار قسمیں, ur-latn: Huqooq ki Chaar Qismein, hi: हुक़ूक़ की चार क़िस्में }
+      - page: 134
+        title: { en: Rights of God, ar: حقوق الله, ur: خدا کے حقوق, ur-latn: Khuda ke Huqooq, hi: ख़ुदा के हुक़ूक़ }
+      - page: 138
+        title: { en: Rights of one's own self, ar: حقوق النفس, ur: نفس کے حقوق, ur-latn: Nafs ke Huqooq, hi: नफ़्स के हुक़ूक़ }
+      - page: 141
+        title: { en: Rights of fellow humans, ar: حقوق العباد, ur: بندوں کے حقوق, ur-latn: Bandon ke Huqooq, hi: बंदों के हुक़ूक़ }
+      - page: 150
+        title: { en: Rights of all creatures, ar: حقوق جميع المخلوقات, ur: تمام مخلوقات کے حقوق, ur-latn: Tamaam Makhlooqaat ke Huqooq, hi: तमाम मख़लूक़ात के हुक़ूक़ }
+      - page: 151
+        title: { en: A universal and everlasting shariah, ar: شريعة عالمية دائمة, ur: عالمگیر اور دائمی شریعت, ur-latn: Aalamgeer aur Daaimi Shariat, hi: आलमगीर और दाइमी शरीअत }

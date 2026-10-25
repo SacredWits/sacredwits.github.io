@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PostView from '../../../../components/PostView.astro';
+import { getAllPosts, getTranslations, type Post } from '../../../../lib/content';
+
+export async function getStaticPaths() {
+  const posts = (await getAllPosts()).filter((p) => !p.data.book && p.data.category);
+  return Promise.all(
+    posts.map(async (post) => ({
+      params: { lang: post.lang, topic: post.data.topic!, category: post.data.category!, slug: post.slug },
+      props: { post, alternates: await getTranslations(post.slug) },
+    })),
+  );
+}
+const { post, alternates } = Astro.props as { post: Post; alternates: Partial<Record<string, string>> };
+---
+
+<BaseLayout lang={post.lang} title={post.data.title} description={post.data.description} image={post.data.cover?.src} alternates={alternates}>
+  <PostView post={post} />
+</BaseLayout>

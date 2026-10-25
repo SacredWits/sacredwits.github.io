@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostGrid from './PostGrid.astro';
+import BookCard from './BookCard.astro';
+import type { Topic, Category } from '../config/taxonomy';
+import type { Locale } from '../i18n/locales';
+import { t } from '../i18n/ui';
+import { getArticles, getBooks } from '../lib/content';
+import { homeUrl, topicUrl, categoryUrl } from '../lib/urls';
+
+interface Props { lang: Locale; topic: Topic; category?: Category }
+const { lang, topic, category } = Astro.props;
+const inScope = (d: { topic?: string; category?: string }) => d.topic === topic.slug && (!category || d.category === category.slug);
+const articles = await getArticles(lang, (p) => inScope(p.data));
+const books = (await getBooks()).filter((b) => inScope(b.data));
+const title = category ? category.label[lang] : topic.label[lang];
+---
+
+<BaseLayout lang={lang} title={category ? `${title} · ${topic.label[lang]}` : title} description={topic.description[lang]}>
+  <div class="container">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href={homeUrl(lang)}>{t(lang, 'home')}</a>
+        {category && (<><span>›</span><a href={topicUrl(lang, topic.slug)}>{topic.label[lang]}</a></>)}
+      </nav>
+      <h1>{title}</h1>
+      <p>{topic.description[lang]}</p>
+      {
+        topic.categories.length > 0 && (
+          <ul class="chips">
+            <li><a href={topicUrl(lang, topic.slug)} aria-current={!category ? 'page' : undefined}>{t(lang, 'all')}</a></li>
+            {topic.categories.map((c) => (
+              <li><a href={categoryUrl(lang, topic.slug, c.slug)} aria-current={c.slug === category?.slug ? 'page' : undefined}>{c.label[lang]}</a></li>
+            ))}
+          </ul>
+        )
+      }
+    </header>
+
+    {
+      books.length > 0 && (
+        <section>
+          <h2 class="section-title">{t(lang, 'booksHere')}</h2>
+          <div class="grid">{books.map((b) => <BookCard book={b} lang={lang} />)}</div>
+        </section>
+      )
+    }
+    <section>
+      {books.length > 0 && <h2 class="section-title">{t(lang, 'articlesHere')}</h2>}
+      <PostGrid posts={articles} lang={lang} />
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .crumbs { display: flex; gap: 6px; font-size: 0.9rem; color: var(--muted); margin-bottom: 6px; }
+</style>

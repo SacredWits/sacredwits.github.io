@@ -2,9 +2,8 @@
 title: "السيدة فاطمة بنت محمد ﷺ: المعيار الحق للعزة"
 description: "كيف أعادت ابنة النبي ﷺ وسيدة نساء أهل الجنة تعريف العزة بالشجاعة والخدمة والقناعة والحياء."
 date: 2026-10-24
-section: seerah
+topic: seerah
 category: women-of-islam
-format: standalone
 cover: ../../../assets/covers/kaaba-makkah-cover.png
 coverAlt: "رسم توضيحي للكعبة ووادي مكة عند الغروب"
 source:

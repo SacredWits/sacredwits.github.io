@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BookCard from '../../../components/BookCard.astro';
+import { booksLabel, booksDescription } from '../../../config/taxonomy';
+import { t } from '../../../i18n/ui';
+import { getBooks } from '../../../lib/content';
+import { langPaths } from '../../../lib/paths';
+import { homeUrl } from '../../../lib/urls';
+import type { Locale } from '../../../i18n/locales';
+
+export const getStaticPaths = langPaths;
+const { lang } = Astro.props as { lang: Locale };
+const books = await getBooks();
+---
+
+<BaseLayout lang={lang} title={booksLabel[lang]} description={booksDescription[lang]}>
+  <div class="container">
+    <header class="page-head">
+      <nav class="crumbs"><a href={homeUrl(lang)}>{t(lang, 'home')}</a></nav>
+      <h1>{booksLabel[lang]}</h1>
+      <p>{booksDescription[lang]}</p>
+    </header>
+    {books.length ? <div class="grid">{books.map((b) => <BookCard book={b} lang={lang} />)}</div> : <p class="empty">{t(lang, 'comingSoon')}</p>}
+  </div>
+</BaseLayout>
+
+<style>
+  .crumbs { font-size: 0.9rem; margin-bottom: 6px; }
+</style>

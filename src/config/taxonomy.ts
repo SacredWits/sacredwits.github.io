@@ -1,13 +1,13 @@
 import type { Locale } from '../i18n/locales';
 
-type Label = Record<Locale, string>;
+export type Label = Record<Locale, string>;
 
 export interface Category {
   slug: string;
   label: Label;
 }
 
-export interface Section {
+export interface Topic {
   slug: string;
   label: Label;
   description: Label;
@@ -15,11 +15,11 @@ export interface Section {
 }
 
 /**
- * Content sections shown in the main menu. Each post declares one `section`
- * (and optionally one `category` inside it). "Articles" and "Series" are not
- * sections: they are listing views by format (standalone vs. series parts).
+ * Topics shown in the main menu. Every article belongs to one topic
+ * (and to one category when the topic has categories).
+ * Books have their own menu entry and are also listed under their topic.
  */
-export const sections: Section[] = [
+export const topics: Topic[] = [
   {
     slug: 'seerah',
     label: { en: 'Seerah & Lives', ar: 'السيرة والتراجم', ur: 'سیرت و سوانح', 'ur-latn': 'Seerat-o-Sawaneh', hi: 'सीरत-ओ-सवानेह' },
@@ -38,7 +38,7 @@ export const sections: Section[] = [
   },
   {
     slug: 'quran',
-    label: { en: 'Quran & Tafseer', ar: 'القرآن والتفسير', ur: 'قرآن و تفسیر', 'ur-latn': 'Quran-o-Tafseer', hi: 'क़ुरआन-ओ-तफ़सीर' },
+    label: { en: 'Quran', ar: 'القرآن', ur: 'قرآن', 'ur-latn': 'Quran', hi: 'क़ुरआन' },
     description: {
       en: 'Explanation of the Quran and reflections on its verses.',
       ar: 'تفسير القرآن وتأملات في آياته.',
@@ -48,7 +48,23 @@ export const sections: Section[] = [
     },
     categories: [
       { slug: 'tafseer', label: { en: 'Tafseer', ar: 'التفسير', ur: 'تفسیر', 'ur-latn': 'Tafseer', hi: 'तफ़सीर' } },
-      { slug: 'reflections', label: { en: 'Quranic Reflections', ar: 'تأملات قرآنية', ur: 'قرآنی تدبر', 'ur-latn': 'Qurani Tadabbur', hi: 'क़ुरआनी तदब्बुर' } },
+      { slug: 'reflections', label: { en: 'Reflections', ar: 'تأملات', ur: 'تدبر', 'ur-latn': 'Tadabbur', hi: 'तदब्बुर' } },
+    ],
+  },
+  {
+    slug: 'beliefs',
+    label: { en: 'Beliefs & Practice', ar: 'العقيدة والعمل', ur: 'عقیدہ و عمل', 'ur-latn': 'Aqeeda-o-Amal', hi: 'अक़ीदा-ओ-अमल' },
+    description: {
+      en: 'What a Muslim believes, how a Muslim worships, and the rules and rights of the Shariah.',
+      ar: 'ما يؤمن به المسلم، وكيف يعبد ربه، وأحكام الشريعة وحقوقها.',
+      ur: 'مسلمان کیا مانتا ہے، کیسے عبادت کرتا ہے، اور شریعت کے احکام و حقوق۔',
+      'ur-latn': 'Musalmaan kya maanta hai, kaise ibaadat karta hai, aur shariat ke ahkaam-o-huqooq.',
+      hi: 'मुसलमान क्या मानता है, कैसे इबादत करता है, और शरीअत के अहकाम-ओ-हुक़ूक़।',
+    },
+    categories: [
+      { slug: 'aqeedah', label: { en: 'Beliefs (Aqeedah)', ar: 'العقيدة', ur: 'عقائد', 'ur-latn': 'Aqaaid', hi: 'अक़ाइद' } },
+      { slug: 'worship', label: { en: 'Worship', ar: 'العبادات', ur: 'عبادات', 'ur-latn': 'Ibaadaat', hi: 'इबादात' } },
+      { slug: 'shariah', label: { en: 'Shariah & Rights', ar: 'الشريعة والحقوق', ur: 'شریعت و حقوق', 'ur-latn': 'Shariat-o-Huqooq', hi: 'शरीअत-ओ-हुक़ूक़' } },
     ],
   },
   {
@@ -89,18 +105,24 @@ export const sections: Section[] = [
   },
 ];
 
-/** Format-based listings shown in the menu next to the sections. */
-export const formats = {
-  articles: { en: 'Articles', ar: 'مقالات', ur: 'مضامین', 'ur-latn': 'Mazameen', hi: 'मज़ामीन' },
-  series: { en: 'Series', ar: 'سلاسل', ur: 'سلسلے', 'ur-latn': 'Silsile', hi: 'सिलसिले' },
-} satisfies Record<string, Label>;
+export const booksLabel: Label = { en: 'Books', ar: 'كتب', ur: 'کتابیں', 'ur-latn': 'Kitaabein', hi: 'किताबें' };
+export const booksDescription: Label = {
+  en: 'Classic Islamic books, studied chapter by chapter with notes and summaries.',
+  ar: 'كتب إسلامية مهمة، تُدرس فصلًا فصلًا مع ملاحظات وخلاصات.',
+  ur: 'اہم اسلامی کتابیں، باب بہ باب نوٹس اور خلاصوں کے ساتھ۔',
+  'ur-latn': 'Aham Islami kitaabein, baab ba baab notes aur khulaason ke saath.',
+  hi: 'अहम इस्लामी किताबें, बाब ब बाब नोट्स और ख़ुलासों के साथ।',
+};
 
-export const sectionSlugs = sections.map((s) => s.slug) as [string, ...string[]];
+/** URL segments that are not topics. */
+export const reservedSegments = ['books'];
 
-export function getSection(slug: string) {
-  return sections.find((s) => s.slug === slug);
+export const topicSlugs = topics.map((s) => s.slug) as [string, ...string[]];
+
+export function getTopic(slug?: string) {
+  return topics.find((s) => s.slug === slug);
 }
 
-export function getCategory(sectionSlug: string, categorySlug?: string) {
-  return getSection(sectionSlug)?.categories.find((c) => c.slug === categorySlug);
+export function getCategory(topicSlug?: string, categorySlug?: string) {
+  return getTopic(topicSlug)?.categories.find((c) => c.slug === categorySlug);
 }

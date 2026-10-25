@@ -1,33 +1,27 @@
 ---
 import { Image } from 'astro:assets';
-import type { Post } from '../lib/content';
-import { postUrl } from '../lib/content';
-import { getSection, getCategory } from '../config/taxonomy';
+import { articleUrl, type Post } from '../lib/content';
+import { getTopic, getCategory } from '../config/taxonomy';
 import { t } from '../i18n/ui';
 
-interface Props { post: Post; seriesTitle?: string }
-const { post, seriesTitle } = Astro.props;
+interface Props { post: Post }
+const { post } = Astro.props;
 const { data, lang } = post;
-const section = getSection(data.section);
-const category = getCategory(data.section, data.category);
+const topic = getTopic(data.topic);
+const category = getCategory(data.topic, data.category);
+const href = articleUrl(post);
 ---
 
 <article class="card">
-  <a href={postUrl(post)} class="cover">
-    {data.cover && <Image src={data.cover} alt={data.coverAlt ?? ''} width={640} quality={70} loading="lazy" />}
+  <a href={href} class="cover" tabindex="-1" aria-hidden="true">
+    {data.cover && <Image src={data.cover} alt="" width={640} quality={70} loading="lazy" />}
   </a>
   <div class="body">
     <p class="meta">
-      {
-        data.format === 'series' ? (
-          <span class="badge series">{t(lang, 'partOf', { n: data.part ?? '' })} {seriesTitle ?? data.series}</span>
-        ) : (
-          <span class="badge">{t(lang, 'standalone')}</span>
-        )
-      }
-      <span class="muted">{category?.label[lang] ?? section?.label[lang]}</span>
+      <span class="badge">{t(lang, 'article')}</span>
+      <span class="muted">{category?.label[lang] ?? topic?.label[lang]}</span>
     </p>
-    <h3><a href={postUrl(post)}>{data.title}</a></h3>
+    <h3><a href={href}>{data.title}</a></h3>
     <p class="muted desc">{data.description}</p>
   </div>
 </article>
