@@ -11,3 +11,7 @@ chapter notes published on the site. Not a transcription of the book. Not publis
   33rd edition, and that translations exist in Arabic, Persian, Indonesian, Swahili, Hausa, English,
   French, German, Spanish, Japanese, Thai, Sinhala, Bengali, Sindhi, Pashto, Gujarati, Hindi, Tamil,
   Malayalam, Danish and Portuguese. Not kept in the repo (copyright).
+
+## What is kept here
+Only a short outline per chapter. The detailed page-by-page working points stay outside the repo,
+because a near-complete paraphrase of a book still under copyright should not be public.
