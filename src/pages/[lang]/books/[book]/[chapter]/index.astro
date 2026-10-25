@@ -38,6 +38,7 @@ const alternates = Object.fromEntries(locales.map((l) => [l, chapterUrl(l, book.
       </nav>
       {chapter.number > 0 && <p class="label">{t(lang, 'chapter', { n: num.format(chapter.number) })}</p>}
       <h1>{chapter.title[lang]}</h1>
+      {notes && <p class="lede">{notes.data.description}</p>}
       <p class="muted">{book.data.title[lang]} — {book.data.author[lang]} · {t(lang, 'page', { n: num.format(chapter.page) })}</p>
     </header>
 
@@ -69,6 +70,7 @@ const alternates = Object.fromEntries(locales.map((l) => [l, chapterUrl(l, book.
   .crumbs { display: flex; flex-wrap: wrap; gap: 6px; font-size: 0.9rem; color: var(--muted); }
   .label { color: var(--gold); font-weight: 600; margin: 16px 0 0; }
   h1 { font-family: var(--font-body); font-size: clamp(1.8rem, 4.5vw, 2.6rem); line-height: 1.45; margin: 4px 0 8px; }
+  .lede { font-family: var(--font-body); font-size: 1.15rem; line-height: var(--leading); margin: 0 0 8px; }
   .outline { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; margin-block: 16px 32px; }
   .outline h2 { font-size: 1.05rem; margin: 0 0 8px; }
   .outline ol { margin: 0; padding-inline-start: 1.4em; font-family: var(--font-body); }
