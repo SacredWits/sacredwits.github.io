@@ -42,6 +42,6 @@ The preface is signed *Abul A'la* and dated 14 Muharram 1361 AH (1 February 1942
 
 ## Points to reflect on
 
-- Do I know *why* I believe what I believe, or only *that* I believe it?
-- Which acts of worship do I perform out of habit, without understanding their purpose?
-- If I were teaching a child about Islam, would I begin with rules or with meaning?
+- Do we know *why* we believe what we believe, or only *that* we believe it?
+- Which acts of worship do we perform out of habit, without understanding their purpose?
+- If we were teaching a child about Islam, would we begin with rules or with meaning?

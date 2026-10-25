@@ -24,7 +24,7 @@ Aam deeni nisaab ka zyada waqt fiqhi masaail ki tafseel par lagta tha: namaaz, r
 - kyun chaahta hai;
 - us ke aqaaid ka insaan ki rozmarra zindagi se kya ta'alluq hai;
 - unhein maanne se kya faayda aur na maanne se kya nuqsaan hai;
-- Islam apne aqaaid sirf zor se manwaana chaahta hai ya un ki sachchaai ki daleel bhi deta hai.
+- Islam apne aqaaid sirf hukm ke zor par manwaana chaahta hai ya un ki sachchaai ki daleel bhi deta hai.
 
 ## Musannif ki daleel
 
@@ -34,7 +34,7 @@ Aam deeni nisaab ka zyada waqt fiqhi masaail ki tafseel par lagta tha: namaaz, r
 
 ## Is kitaab ka tareeqa
 
-- Is mein Quran Majeed ki ta'leemaat ka khulaasa pesh kiya gaya hai.
+- Is mein Quran Majeed ki taleemaat ka khulaasa pesh kiya gaya hai.
 - Quran hi ke andaaz mein baat daleel ke saath ki gayi hai, mehaz hukm ke taur par nahin.
 - Musannif ise deeni taleem ka ek naya tareeqa kehte hain jo puraane tareeqe se bahut mukhtalif aur maujooda zamaane ke liye zyada mufeed hai, aur ummeed rakhte hain ke is se zyada nateeja-khez deeni taleem ka darwaaza khulega.
 
@@ -42,6 +42,6 @@ Deebaache ke aakhir mein *Abul Aala* ka naam aur 14 Muharram-ul-Haraam 1361 Hijr
 
 ## Ghaur karne ki baatein
 
-- Kya main jaanta hoon ke main jo maanta hoon *kyun* maanta hoon, ya sirf yeh ke maanta hoon?
-- Kaun si ibaadatein main mehaz aadat se karta hoon, un ka maqsad samjhe baghair?
-- Agar mujhe kisi bachche ko Islam sikhaana ho to main ahkaam se shuru karoonga ya un ke maani se?
+- Kya hum jaante hain ke hum jo maante hain *kyun* maante hain, ya sirf yeh ke maante hain?
+- Kaun si ibaadatein hum mehaz aadat se karte hain, un ka maqsad samjhe baghair?
+- Agar hamein kisi bachche ko Islam sikhaana ho to hum ahkaam se shuru karenge ya un ke maani se?
