@@ -37,3 +37,24 @@ Reality of kufr (13) · Harms of kufr (13) · Benefits of Islam (17)
     part does exactly the work assigned to it, in exactly the way assigned.
 - This mighty law, binding everything from the greatest planets to the smallest particle of
   earth, is a law made by one supreme Ruler. All … (continues on p. 11)
+
+## p. 11
+- (cont.) Everything in the universe obeys that Ruler, because it follows the law He made.
+  So the "religion" of the whole universe is Islam, since Islam means obeying God.
+  - Sun, moon and stars are muslim; so is the earth; so are air, water, light;
+    trees, stones and animals too.
+- **Even the denier is muslim in his body:** a person who does not know God, denies Him,
+  worships others or associates partners with Him is still muslim by nature and constitution.
+  - His birth, life and death all fall under God's law.
+  - Every limb and every hair of his body has Islam as its religion, since each forms,
+    grows and moves by God's law.
+  - Even the tongue he uses to voice shirk and kufr is, in itself, muslim.
+  - The head he forcibly bows before others is born muslim.
+  - The heart in which, through ignorance, he holds love and reverence for others is muslim
+    by nature.
+  - Reason: all these obey God's law; every movement of theirs is under it.
+- **Now a second angle — man's two sides:**
+  1. Like all other creation, man is bound by the mighty rules of nature's law and is
+     compelled to follow them.
+  2. Unlike them, he has reason: the power to think, understand and form an opinion …
+     (continues on p. 12)
